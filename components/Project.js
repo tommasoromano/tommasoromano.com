@@ -13,7 +13,7 @@ const Project = ({img, title, externalLink, featurated, description, tags, color
         } else {
             return ( <span className="bg-gray-200 text-gray-800 font-bold p-2 m-1 rounded-lg drop-shadow-lg absolute top-3 left-3">{featurated}</span> );
         }
-    }
+    };
 
     return (
         <section className="bg-gray-200 dark:bg-gray-800 w-full rounded-lg drop-shadow-lg relative">
@@ -31,7 +31,7 @@ const Project = ({img, title, externalLink, featurated, description, tags, color
                 {listTags}
             </section>
         </section>
-    )
+    );
 }
 
 export default Project;
