@@ -3,8 +3,8 @@ import{ExternalLinkIcon} from "@heroicons/react/outline";
 
 const Project = ({img, title, externalLink, featurated, description, tags, color}) => {
     
-    const listTags = tags.map((t) =>  
-        <span className="bg-indigo-200 dark:bg-indigo-800 text-indigo-800 dark:text-indigo-200 p-2 m-1 rounded-lg drop-shadow-lg">{t}</span> 
+    const listTags = tags.map((t) => 
+        <span key={t} className="bg-indigo-200 dark:bg-indigo-800 text-indigo-800 dark:text-indigo-200 p-2 m-1 rounded-lg drop-shadow-lg">{t}</span> 
     );
 
     const renderFeatured = () => {
