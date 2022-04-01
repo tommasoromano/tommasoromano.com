@@ -17,7 +17,7 @@ const Project = ({img, title, externalLink, featurated, description, tags, color
 
     return (
         <section className="bg-gray-200 dark:bg-gray-800 w-full rounded-lg drop-shadow-lg relative">
-            <a href={externalLink} target="_blank">
+            <a href={externalLink} target="_blank" rel="noreferrer noopener">
                 <ExternalLinkIcon className="text-gray-200 absolute top-3 right-3 w-6 h-6 drop-shadow-lg"/>
             </a>
             {renderFeatured()}
