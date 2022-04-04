@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="text-center text-sm text-gray-500">
-        <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2"> Tommaso Romano</span>   &copy; {new Date().getFullYear()}   All Rights Reserved
+        <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2"> Tommaso Romano&apos;</span> &copy; {new Date().getFullYear()} - All Rights Reserved
       </div>
     </footer>
   );

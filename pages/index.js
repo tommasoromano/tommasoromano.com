@@ -9,12 +9,14 @@ export default function Home() {
       <section className="flex flex-col justify-center items-center space-y-10 mt-12 sm:mt-24 md:mt-32">
         {/* Headlines */}
         
-        <h2 className="text-3xl w-[740px] text-gray-800 text-center leading-normal sm:text-6xl font-bold capitalize dark:text-gray-100 ">Hello World!</h2>
-         <p className="text-xl sm:text-md text-center text-gray-500 dark:text-gray-200">I&apos;m a super interesting description</p>
+        <h2 className="text-3xl w-[740px] text-gray-800 text-center leading-normal sm:text-6xl font-bold capitalize dark:text-gray-100 ">Hi! 👋 I&apos;m Tommaso</h2>
+         <p className="text-xl sm:text-md text-center text-gray-500 dark:text-gray-200">I&apos;m a software engineer and CS student @UNIMI</p>
         {/* CTA */}
         <button className="btn" type="button" onClick={null}>
-          {" "}
-          Click me
+          Discover
+        </button>
+        <button className="btn" type="button" onClick={null}>
+          Resume
         </button>
       </section>
 
@@ -30,8 +32,8 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex">
-        <div className="w-1/2 md:w-full m-2">
+      <div className="md:flex">
+        <div className="md:w-1/2 w-full md:m-2">
           <Project
             img={"/GW_1.jpg"}
             title="Gladiator Wheels"
@@ -41,7 +43,7 @@ export default function Home() {
             tags={["Unity","C#"]}
           />
         </div>
-        <div className="w-1/2 md:w-full m-2">
+        <div className="md:w-1/2 w-full md:m-2">
           <Project
             img={"/GW_1.jpg"}
             title="Gladiator Wheels"
