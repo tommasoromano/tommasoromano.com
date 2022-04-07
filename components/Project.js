@@ -23,7 +23,7 @@ const Project = ({img, title, externalLink, featurated, description, tags, color
             {renderFeatured()}
             <img
                 src={img}
-                className="object-cover w-full rounded-t-lg"
+                className="object-cover w-full rounded-t-lg "
             />
             <h1 className="text-3xl p-8">{title}</h1>
             <p className="px-8">{description}</p>

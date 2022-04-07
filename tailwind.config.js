@@ -8,6 +8,15 @@ module.exports = {
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
+      keyframes: {
+        hue: {
+          '0%, 100%': { filter: 'hue-rotate(0deg)' },
+          '50%': { filter: 'hue-rotate(180deg)' },
+        }
+      },
+      animation: {
+        hue: 'hue 1s ease-in-out infinite',
+      }
     },
   },
   variants: {

@@ -9,6 +9,24 @@
   }
   
   .btn{
-    @apply inline-block px-5 py-3 rounded-lg hover:bg-indigo-600 transition duration-300 shadow-lg bg-indigo-500 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50 whitespace-nowrap
+    @apply px-5 py-3 rounded-lg;
+    @apply text-xl font-bold;
+
+    @apply bg-indigo-400 dark:bg-indigo-600;
+    @apply border-4 border-gray-800 dark:border-gray-200;
+    
+    @apply hover:bg-gray-800 hover:dark:bg-gray-200;
+    @apply hover:text-gray-200 hover:dark:text-gray-800;
+  }
+  .btn2{
+    @apply px-5 py-3 rounded-lg;
+    @apply text-xl font-bold;
+    @apply border-4 border-gray-800 dark:border-gray-200;
+    
+    @apply hover:bg-gray-200 hover:dark:bg-gray-800;
+    @apply hover:text-gray-800 hover:dark:text-gray-200;
+
+    @apply hover:bg-gray-800 hover:dark:bg-gray-200;
+    @apply hover:text-gray-200 hover:dark:text-gray-800;
   }
 }

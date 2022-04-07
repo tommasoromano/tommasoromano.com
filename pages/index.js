@@ -1,23 +1,34 @@
 import Layout from "../sections/Layout";
 import Project from "../components/Project";
+import{ArrowDownIcon} from "@heroicons/react/solid";
 
 export default function Home() {
   return (
     <Layout>
-      {/* Hero Section  */}
 
-      <section className="flex flex-col justify-center items-center space-y-10 mt-12 sm:mt-24 md:mt-32">
-        {/* Headlines */}
+      <section className="flex items-center space-x-10 my-72">
         
-        <h2 className="text-3xl w-[740px] text-gray-800 text-center leading-normal sm:text-6xl font-bold capitalize dark:text-gray-100 ">Hi! 👋 I&apos;m Tommaso</h2>
-         <p className="text-xl sm:text-md text-center text-gray-500 dark:text-gray-200">I&apos;m a software engineer and CS student @UNIMI</p>
-        {/* CTA */}
-        <button className="btn" type="button" onClick={null}>
-          Discover
-        </button>
-        <button className="btn" type="button" onClick={null}>
-          Resume
-        </button>
+        <img
+          src="tommaso_romano_photo.jpg"
+          className="w-40 rounded-full outline outline-offset-4 outline-4"
+        />
+
+        <div className="flex flex-col space-y-5">
+
+          <h2 className="text-6xl text-center font-bold">Hi, I&apos;m Tommaso</h2>
+          <p className="text-xl text-center">a software engineer and CS student @UNIMI</p>
+          
+          <div className="flex items-center justify-center space-x-5">
+            <button className="btn2" type="button" onClick={null}>
+              Discover
+            </button>
+            <button className="btn" type="button" onClick={null}>
+              ( CV ) Resume
+            </button>
+          </div>
+
+        </div>
+
       </section>
 
       <div className="flex flex-col justify-center items-center space-y-10 mt-12 sm:mt-24 md:mt-32">
