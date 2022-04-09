@@ -3,30 +3,46 @@
 @tailwind utilities;
 
 @layer base {
-  body {
+  body, main {
     @apply bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200;
     @apply min-h-screen min-w-full;
   }
-  
+
+  .h2 {
+    @apply text-6xl text-center font-bold;
+  }
+  .h2p {
+    @apply text-xl text-center;
+  }
+  a, button {
+    @apply hover:text-gray-200 hover:dark:text-gray-800;
+    @apply hover:animate-pulse;
+  }
   .btn{
     @apply px-5 py-3 rounded-lg;
     @apply text-xl font-bold;
+    @apply border-gray-800 dark:border-gray-200;
 
     @apply bg-indigo-400 dark:bg-indigo-600;
-    @apply border-4 border-gray-800 dark:border-gray-200;
+    @apply border-4;
     
     @apply hover:bg-gray-800 hover:dark:bg-gray-200;
-    @apply hover:text-gray-200 hover:dark:text-gray-800;
   }
   .btn2{
     @apply px-5 py-3 rounded-lg;
     @apply text-xl font-bold;
-    @apply border-4 border-gray-800 dark:border-gray-200;
+    @apply border-gray-800 dark:border-gray-200;
+
+    @apply border-4;
     
-    @apply hover:bg-gray-200 hover:dark:bg-gray-800;
-    @apply hover:text-gray-800 hover:dark:text-gray-200;
+    @apply bg-transparent;
 
     @apply hover:bg-gray-800 hover:dark:bg-gray-200;
-    @apply hover:text-gray-200 hover:dark:text-gray-800;
+  }
+
+  .inline-btn {
+    @apply underline font-bold;
+    @apply decoration-indigo-500;
+    @apply hover:text-gray-800 hover:dark:text-gray-200;
   }
 }
