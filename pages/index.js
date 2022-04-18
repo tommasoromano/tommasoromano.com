@@ -1,5 +1,6 @@
 import Layout from "../sections/Layout";
 import Project from "../components/Project";
+import Article from "../components/Article";
 import Pa from "../components/Pa";
 import{ArrowDownIcon} from "@heroicons/react/solid";
 
@@ -7,11 +8,11 @@ export default function Home() {
   return (
     <Layout>
 
-      <section className="flex items-center space-x-10 min-h-screen">
+      <section className="md:flex md:items-center md:space-x-10 min-h-screen">
         
         <img
           src="tommaso_romano_photo.jpg"
-          className="w-40 rounded-full outline outline-offset-4 outline-4 animate-spin"
+          className="w-40 rounded-full outline outline-offset-4 outline-4 hover:animate-spin animate-none"
         />
 
         <div className="flex flex-col space-y-5">
@@ -19,15 +20,16 @@ export default function Home() {
           <h2 className="h2">Hi, I&apos;m Tommaso</h2>
           <p className="h2p">
             founder and developer <Pa href={"/"} text={"@RelowDigital"}/>,
-            CS student <Pa href={"/"} text={"@UNIMI"}/>,
-            currently working on Gladiator Wheels <Pa href={"/"} text={"@DreamBitsStudio"}/>
+            Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/>,
+            currently working on <Pa href={"https://dreambitsstudio.com"} text={"Gladiator Wheels"}/>
+            and <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/>
           </p>
           
           <div className="flex items-center justify-center space-x-5">
             <button className="btn2" type="button" onClick={null}>
               Discover
             </button>
-            <button className="btn" type="button" onClick={null}>
+            <button className="btn" type="button" onClick={"/tommaso_romano_cv.pdf"}>
               ( CV ) Resume
             </button>
           </div>
@@ -83,22 +85,79 @@ export default function Home() {
           </div>
           <div className="w-full">
             <Project
-              name="gladiatorwheels"
+              name="swang"
             />
           </div>
           <div className="w-full">
             <Project
-              name="gladiatorwheels"
+              name="ung"
             />
           </div>
           <div className="w-full">
             <Project
-              name="gladiatorwheels"
+              name="eig"
+            />
+          </div>
+          <div className="w-full">
+            <Project
+              name="relow"
+            />
+          </div>
+          <div className="w-full">
+            <Project
+              name="polywar"
             />
           </div>
         </div>
 
         
+      </div>
+
+      <div className="flex flex-col justify-center items-center space-y-10 mt-20">
+        <h2 className="h2">Recognitions</h2>
+        <p className="h2p">
+          a list of news, articles, interviews, awards, expositions, talks and achievements. Many are hidden, in order to show only
+          relevant ones.
+        </p>
+
+        <div className="w-full">
+          <Article
+            name="bgf-win"
+          />
+        </div>
+        <div className="w-full">
+          <Article
+            name="a-80lvl"
+          />
+        </div>
+        <div className="w-full">
+          <Article
+            name="t-social"
+          />
+        </div>
+        <div className="w-full">
+          <Article
+            name="i-mgwx"
+          />
+        </div>
+
+      </div>
+
+      <div className="flex flex-col justify-center items-center space-y-10 mt-20">
+        <h2 className="h2">Athletics</h2>
+        <p className="h2p">
+          a list of news, articles, interviews, awards, expositions, talks and achievements. Many are hidden, in order to show only
+          relevant ones.
+        </p>
+
+        <p 
+            className="text-2xl font-bold"
+        >
+        <section>&#129352; 4x200m - Italian Championship Ancona 2022</section>
+          <section>&#129353; 4x100m - Italian Championship Grosseto 2021</section>
+          <section>&#129353; 4x100m - Italian Championship Grosseto 2020</section>
+        </p>
+
       </div>
 
     </Layout>

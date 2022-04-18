@@ -1,6 +1,6 @@
 import{ExternalLinkIcon} from "@heroicons/react/outline";
 import Pa from "../components/Pa";
-import content from "../projects/projects.json"
+import content from "../content/projects.json"
 
 const Project = ({name}) => {
     const prj = content[name];
@@ -28,10 +28,16 @@ const Project = ({name}) => {
             />
 
             <section className="w-full p-8">
-                <h2 className="text-3xl font-bold mb-4">
+                
+                <h2 
+                    className="text-3xl font-bold mb-4"
+                >
+                    <a className="title-btn" href={prj.link} target="_blank" rel="noreferrer noopener">
                     {prj.title}
+                    </a>
                 </h2>
                 <p className="space-x-3 my-4">
+                    <span className="font-bold">{prj.role}</span>
                     <span className="italic">{prj.time}</span>
                     <Pa href={prj.atlink} text={prj.at}/>
                 </p>

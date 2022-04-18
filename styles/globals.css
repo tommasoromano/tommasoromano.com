@@ -45,4 +45,9 @@
     @apply decoration-indigo-500;
     @apply hover:text-gray-800 hover:dark:text-gray-200;
   }
+  .title-btn {
+    @apply hover:underline;
+    @apply decoration-indigo-500;
+    @apply hover:text-gray-800 hover:dark:text-gray-200;
+  }
 }
