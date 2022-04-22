@@ -3,6 +3,7 @@ import Project from "../components/Project";
 import Article from "../components/Article";
 import Pa from "../components/Pa";
 import{ArrowDownIcon} from "@heroicons/react/solid";
+import Socials from "../components/Socials"
 
 export default function Home() {
   return (
@@ -10,10 +11,12 @@ export default function Home() {
 
       <section className="md:flex md:items-center md:space-x-10 min-h-screen">
         
-        <img
-          src="tommaso_romano_photo.jpg"
-          className="w-40 rounded-full outline outline-offset-4 outline-4 hover:animate-spin animate-none"
-        />
+        <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0">
+          <img
+            src="tommaso_romano_photo.jpg"
+            className="w-40 rounded-full outline outline-offset-4 outline-4 outline-sky-400 hover:animate-spin animate-none"
+          />
+        </div>
 
         <div className="flex flex-col space-y-5">
 
@@ -29,10 +32,11 @@ export default function Home() {
             <button className="btn2" type="button" onClick={null}>
               Discover
             </button>
-            <button className="btn" type="button" onClick={"/tommaso_romano_cv.pdf"}>
-              ( CV ) Resume
+            <button className="btn" type="button" onClick={null}>
+              Resume
             </button>
           </div>
+          <Socials/>
 
         </div>
 
@@ -77,8 +81,8 @@ export default function Home() {
          * 
         */}
 
-        <div className="md:grid md:grid-cols-2 md:gap-4">
-          <div className="w-full">
+        <div className="md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0">
+          {/*<div className="w-full">
             <Project
               name="pystockbot"
             />
@@ -87,12 +91,12 @@ export default function Home() {
             <Project
               name="swang"
             />
-          </div>
+          </div>*/}
           <div className="w-full">
             <Project
               name="ung"
             />
-          </div>
+      </div>
           <div className="w-full">
             <Project
               name="eig"

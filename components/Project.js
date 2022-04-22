@@ -18,9 +18,9 @@ const Project = ({name}) => {
 
     return (
         <section className="bg-gray-100 dark:bg-gray-900 w-full rounded-lg drop-shadow-lg relative">
-            <a href={prj.link} target="_blank" rel="noreferrer noopener">
-                <ExternalLinkIcon className="text-gray-200 absolute top-3 right-3 w-6 h-6 drop-shadow-lg"/>
-            </a>
+            {/*<a href={prj.link} target="_blank" rel="noreferrer noopener">
+                <ExternalLinkIcon className="text-gray-100 absolute top-3 right-3 w-6 h-6 invert"/>
+            </a>*/}
             {renderFeatured()}
             <img
                 src={prj.img}

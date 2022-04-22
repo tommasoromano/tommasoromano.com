@@ -2,11 +2,11 @@
     "gladiatorwheels":{
         "title":"Gladiator Wheels",
         "link":"https://dreambitsstudio.com",
-        "img":"/GW_1.jpg",
+        "img":"/GW_2.jpg",
         "featurated":"",
         "role":"Senior Game Developer",
         "description":"Gladiator Wheels is a fast-paced multiplayer game about figthining cars in a medieval-punk environment. Winners of Bologna Game Farm 2021: funding and accelerator program in collaboration with IIDEA. Working on a Networking solution for Multiplayer Synchronization. Worked on the in-game Level-Editor Software Architecture for creating custom arenas.",
-        "tags":["C#","Unity",”Network”],
+        "tags":["C#","Unity","Network"],
         "time":"May 2021 - Today",
         "at":"@DreamBitsStudio",
         "atlink":"https://dreambitsstudio.com"
@@ -42,7 +42,7 @@
         "featurated":"",
         "role":"",
         "description":"A University project about creating a system for online voting. Software engineering, Software architecture, data security, data protection.",
-        "tags":["Java",”SQLite”,"Maven",”Eclipse”],
+        "tags":["Java","SQLite","Maven","Eclipse"],
         "time":"December 2021 - April 2022",
         "at":"@UNIMI",
         "atlink":"/"
@@ -50,19 +50,19 @@
     "ung":{
         "title":"Untitled Nature Game",
         "link":"/",
-        "img":"/GW_1.jpg",
+        "img":"/untitle-nature-game.gif",
         "featurated":"",
         "role":"",
         "description":"A prototype game about growing-plant based weapons. Many GIFs of the concept went viral on Twitter and Reddit and got millions of views.",
         "tags":["Unity","C#"],
-        "time":"December 2021 - April 2022",
+        "time":"December 2021 - Today",
         "at":"@personal",
         "atlink":"/"
     },
     "eig":{
         "title":"Easy Insta Growth",
         "link":"/",
-        "img":"/GW_1.jpg",
+        "img":"/eig.png",
         "featurated":"",
         "role":"",
         "description":"An automated solution for Instagram account management and growth. Used on Fiverr to managed more than hundred clients worldwide.",
@@ -74,25 +74,25 @@
     "relow":{
         "title":"Relow",
         "link":"/",
-        "img":"/GW_1.jpg",
+        "img":"/relow.png",
         "featurated":"",
-        "role":"",
+        "role":"Solo Game Developer",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags":["Machine Learning","Data Science","Data Analysis","Data Visualization"],
-        "time":"December 2021 - April 2022",
-        "at":"@personal",
+        "time":"June 2018 - November 2020",
+        "at":"@Relow Digital",
         "atlink":"/"
     },
     "polywar":{
         "title":"POLYWAR",
         "link":"/",
-        "img":"/GW_1.jpg",
+        "img":"/polywar.png",
         "featurated":"",
-        "role":"",
+        "role":"Lead Game Developer",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags":["Machine Learning","Data Science","Data Analysis","Data Visualization"],
-        "time":"December 2021 - April 2022",
-        "at":"@personal",
+        "time":"June 2015 - March 2017",
+        "at":"@ExagonGames",
         "atlink":"/"
     }
 }
