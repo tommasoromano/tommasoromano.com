@@ -19,22 +19,22 @@ const Header = () => {
 
       if(currentTheme ==="dark"){
         return (
-          <SunIcon className="w-10 h-10 text-gary-300 " role="button" onClick={() => setTheme('light')} />
+          <SunIcon className="w-10 h-10" role="button" onClick={() => setTheme('light')} />
         )
       }
 
       else {
         return (
-          <MoonIcon className="w-10 h-10 text-gray-700 " role="button" onClick={() => setTheme('dark')} />
+          <MoonIcon className="w-10 h-10" role="button" onClick={() => setTheme('dark')} />
         )
       }
    };
 
   return (
-    <header className="h-15">
-      <div className="container  px-4 sm:px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
-        <Logo />
+    <header className="top-0 h-15 z-50">
+      <div className="px-4 sm:px-6 py-4 flex justify-center">
+        
+        {/*<Logo />*/}
 
         {renderThemeChanger()}
       </div>
