@@ -5,7 +5,7 @@
         "img":"/GW_2.jpg",
         "featurated":"",
         "role":"Senior Game Developer",
-        "description":"Gladiator Wheels is a fast-paced multiplayer game about figthining cars in a medieval-punk environment. Winners of Bologna Game Farm 2021: funding and accelerator program in collaboration with IIDEA. Working on a Networking solution for Multiplayer Synchronization. Worked on the in-game Level-Editor Software Architecture for creating custom arenas.",
+        "description":"Gladiator Wheels is a fast-paced multiplayer game about figthining cars in a medieval-punk environment. Winners of [Bologna Game Farm 2021](https://bolognagamefarm.com): funding and accelerator program in collaboration with IIDEA. Working on a Networking solution for Multiplayer Synchronization. Worked on the in-game Level-Editor Software Architecture for creating custom arenas.",
         "tags":["C#","Unity","Network"],
         "time":"May 2021 - Today",
         "at":"@DreamBitsStudio",

@@ -1,6 +1,8 @@
 import{ExternalLinkIcon} from "@heroicons/react/outline";
 import Pa from "../components/Pa";
 import content from "../content/projects.json"
+import ReadContent from "./ReadContent";
+import ReactHtmlParser from 'react-html-parser'; 
 
 const Project = ({name}) => {
     const prj = content[name];
@@ -42,7 +44,10 @@ const Project = ({name}) => {
                     <Pa href={prj.atlink} text={prj.at}/>
                 </p>
                 <span className="space-x-3 my-4">{listTags}</span>
-                <p className="mt-4">{prj.description}</p>
+                <div className="mt-4">
+                    <ReadContent content={prj.description}/>
+                    {/* ReactHtmlParser (prj.description) */}
+                </div>
             </section>
         </section>
     );
