@@ -50,7 +50,7 @@ export default function Home() {
         
         <h2 className="h2">Work</h2>
         <p className="h2p">
-          a list of featurated projects I've worked on as an employer, collaborator, 
+          a list of featurated projects I&apos;ve worked on as an employer, collaborator, 
           self-employed, student or personal. Many are hidden, in order to show only
           relevant ones. These projects cover many Computer Science fields
           like Data Science &#38; Analysis, Web Development (both back-end and front-end),
