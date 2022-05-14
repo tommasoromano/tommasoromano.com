@@ -51,8 +51,8 @@ export default function Home() {
         <h2 className="h2">Work</h2>
         <p className="h2p">
           a list of featurated projects I&apos;ve worked on as an employer, collaborator, 
-          self-employed, student or personal. Many are hidden, in order to show only
-          relevant ones. These projects cover many Computer Science fields
+          self-employed, student or personal. To show only
+          relevant projects, many any are hidden. These projects cover many Computer Science fields
           like Data Science &#38; Analysis, Web Development (both back-end and front-end),
           Game Development and Software Development.
         </p>
@@ -120,8 +120,8 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center space-y-10 mt-20">
         <h2 className="h2">Recognitions</h2>
         <p className="h2p">
-          a list of news, articles, interviews, awards, expositions, talks and achievements. Many are hidden, in order to show only
-          relevant ones.
+          a list of news, articles, interviews, awards, expositions, talks and achievements. 
+          To show only relevant recognitions, many any are hidden.
         </p>
 
         <div className="w-full">
