@@ -3,35 +3,35 @@
         "title":"Realtime Networking for IndieDevs",
         "link":"/",
         "date":"14 May 2022",
-        "description":"",
-        "tags":["Award"]
+        "description":"Gameplay Networking: Best practices and Design Patterns.",
+        "tags":["Talk"]
     },
     "bgf-win":{
         "title":"Winners of Bologna Game Farm 2021",
-        "link":"/",
+        "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_startups-videogames-activity-6878039527848472576-etCp",
         "date":"15 December 2021",
-        "description":"",
+        "description":"Winners with GladiatorWheels of the funding project Bologna Game Farm: accelerator dedicated to innovative startups for the development of videogames",
         "tags":["Award"]
     },
     "t-social":{
         "title":"Social Media for Game Developers",
         "link":"/",
         "date":"10 July 2021",
-        "description":"",
+        "description":"Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure",
         "tags":["Talk"]
     },
     "a-80lvl":{
         "title":"This Gun in Unity Creates Climbable Ivy",
-        "link":"/",
+        "link":"https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
         "date":"25 October 2021",
-        "description":"",
+        "description":"Arti Burton, 80LVL. Tommaso Romanò shared a look at an updated version of his procedural gun.",
         "tags":["Article"]
     },
     "i-mgwx":{
         "title":"One Man Company (Round Table)",
         "link":"/",
         "date":"29 November 2020",
-        "description":"",
+        "description":"Emilio Cozzi, with Fortuna Imperatore and Johnny Lonack. Pros and cons of working as a Solo-Game-Developer.",
         "tags":["Interview"]
     },
     "e-svpty21":{
