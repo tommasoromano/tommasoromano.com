@@ -27,8 +27,8 @@ export default function Home() {
             currently working on <Pa href={"https://dreambitsstudio.com"} text={"Gladiator Wheels"}/>
             and <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/>*/}
   <ul className="list-none">
-    <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"DreamBitsStudio"}/></li>
-      <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/></li>
+    <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@DreamBitsStudio"}/></li>
+      <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li>
             <li>Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/></li>
               </ul>
           </p>
