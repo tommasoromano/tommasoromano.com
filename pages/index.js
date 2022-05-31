@@ -22,10 +22,15 @@ export default function Home() {
 
           <h2 className="h2">Hi, I&apos;m Tommaso</h2>
           <p className="h2p">
-            founder and developer <Pa href={"/"} text={"@RelowDigital"}/>,
+    {/*founder and developer <Pa href={"/"} text={"@RelowDigital"}/>,
             Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/>,
             currently working on <Pa href={"https://dreambitsstudio.com"} text={"Gladiator Wheels"}/>
-            and <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/>
+            and <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/>*/}
+  <ul class="list-none">
+    <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"DreamBitsStudio"}/></li>
+      <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/></li>
+            <li>Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/></li>
+              </ul>
           </p>
           
           <div className="flex items-center justify-center space-x-5">
@@ -50,11 +55,11 @@ export default function Home() {
         
         <h2 className="h2">Work</h2>
         <p className="h2p">
-          a list of featurated projects I&apos;ve worked on as an employer, collaborator, 
+          A list of featurated projects I&apos;ve worked on as an employer, collaborator, 
           self-employed, student or personal. To show only
           relevant projects, many any are hidden. These projects cover many Computer Science fields
           like Data Science &#38; Analysis, Web Development (both back-end and front-end),
-          Game Development and Software Development.
+          Game Development and Software Development
         </p>
 
         {/** 
@@ -120,8 +125,8 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center space-y-10 mt-20">
         <h2 className="h2">Recognitions</h2>
         <p className="h2p">
-          a list of news, articles, interviews, awards, expositions, talks and achievements. 
-          To show only relevant recognitions, many any are hidden.
+          A list of news, articles, interviews, awards, expositions, talks and achievements. 
+          To show only relevant recognitions, many any are hidden
         </p>
 
         <div className="w-full">
@@ -150,8 +155,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center space-y-10 mt-20">
         <h2 className="h2">Athletics</h2>
         <p className="h2p">
-          a list of news, articles, interviews, awards, expositions, talks and achievements. Many are hidden, in order to show only
-          relevant ones.
+          A list of not-Computer-Science-related but athletics achievements I&apos;m proud of
         </p>
 
         <p 
