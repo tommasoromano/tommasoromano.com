@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0">
           <img
             src="tommaso_romano_photo.jpg"
-            className="w-40 rounded-full outline outline-offset-4 outline-4 outline-sky-400 hover:animate-spin animate-none"
+            className="w-40 rounded-full ring-offset-4 ring-4 ring-sky-400 hover:animate-spin animate-none"
           />
         </div>
 
