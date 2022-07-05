@@ -12,7 +12,7 @@
     @apply text-3xl md:text-6xl text-center font-bold;
   }
   .h2p {
-    @apply text-xl text-center;
+    @apply text-lg md:text-xl text-center;
   }
   a, button {
     @apply hover:text-gray-200 hover:dark:text-gray-800;

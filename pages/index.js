@@ -34,10 +34,10 @@ export default function Home() {
           </p>
           
           <div className="flex items-center justify-center space-x-5">
-            <button className="btn2" type="button" onClick={null}>
+            <button className="btn2" type="button" onClick={null} >
               Discover
             </button>
-            <button className="btn" type="button" onClick={null}>
+            <button className="btn" type="button" onClick={null} href="/tommaso_romano_cv.pdf">
               Resume
             </button>
           </div>
@@ -87,21 +87,21 @@ export default function Home() {
         */}
 
         <div className="md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0">
-          {/*<div className="w-full">
+          <div className="w-full">
             <Project
-              name="pystockbot"
+              name="ung"
             />
           </div>
           <div className="w-full">
             <Project
               name="swang"
             />
-          </div>*/}
+          </div>
           <div className="w-full">
             <Project
-              name="ung"
+              name="pystockbot"
             />
-      </div>
+          </div>
           <div className="w-full">
             <Project
               name="eig"
