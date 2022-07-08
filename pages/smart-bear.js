@@ -13,7 +13,7 @@ function SmartBear( ) {
 
     return (
         <Layout>
-            <a className="absolute z-20 hover:text-gray-800 hover:dark:text-gray-200 mt-1" href="/"><ArrowLeftIcon className="w-10 h-10"/></a>
+            <a className="absolute z-20 hover:text-gray-800 hover:dark:text-gray-200 mt-1" href=""><ArrowLeftIcon className="w-10 h-10"/></a>
             <section className="mt-16 bg-gray-100 dark:bg-gray-900 w-full rounded-lg drop-shadow-lg relative">
                 <img
                     src={prj.img}
