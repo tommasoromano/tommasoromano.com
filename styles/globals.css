@@ -39,6 +39,9 @@
 
     @apply hover:bg-gray-800 hover:dark:bg-gray-200;
   }
+  .btn3 {
+    @apply bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded-lg;
+  }
 
   .inline-btn {
     @apply underline font-bold;
@@ -53,5 +56,8 @@
   .social-btn {
     @apply w-7 h-7 m-1 fill-gray-800 dark:fill-gray-200;
     @apply hover:fill-gray-700  hover:dark:fill-gray-300;
+  }
+  .inline-img {
+    @apply w-full rounded-lg my-12;
   }
 }

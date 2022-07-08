@@ -125,9 +125,21 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center space-y-10 mt-20">
         <h2 className="h2">Recognitions</h2>
         <p className="h2p">
-          A list of news, articles, interviews, awards, expositions, talks and achievements. 
+          A list of news, articles, interviews, awards, expositions, events, talks and achievements. 
           To show only relevant recognitions, many any are hidden
         </p>
+
+        <div className="w-full">
+          <Project
+            name="bolognagamefarm"
+          />
+        </div>
+
+        <div className="w-full">
+          <Article
+            name="frstplybl22"
+          />
+        </div>
 
         <div className="w-full">
           <Article

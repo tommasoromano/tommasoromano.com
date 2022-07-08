@@ -1,4 +1,11 @@
 {
+    "frstplybl22":{
+        "title":"First Playable",
+        "link":"https://firstplayable.it",
+        "date":"6-8 July 2022",
+        "description":"Firts Playable is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds like Nintendo Europe, Epic Games, Acer and so on",
+        "tags":["Event"]
+    },    
     "svpty2022-ntw":{
         "title":"Realtime Networking for IndieDevs",
         "link":"/",
@@ -7,7 +14,7 @@
         "tags":["Talk"]
     },
     "bgf-win":{
-        "title":"Winners of Bologna Game Farm 2021",
+        "title":"Winners of Bologna Game Farm",
         "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_startups-videogames-activity-6878039527848472576-etCp",
         "date":"15 December 2021",
         "description":"Winners with GladiatorWheels of the funding project Bologna Game Farm: accelerator dedicated to innovative startups for the development of videogames",
@@ -35,14 +42,14 @@
         "tags":["Interview"]
     },
     "e-svpty21":{
-        "title":"Svilupparty 2021",
+        "title":"Svilupparty",
         "link":"/",
         "date":"10 July 2021",
         "description":"",
         "tags":["Exposition"]
     },
     "e-mgwx":{
-        "title":"Milan Games Week X 2020",
+        "title":"Milan Games Week X",
         "link":"/",
         "date":"27 November 2020",
         "description":"",

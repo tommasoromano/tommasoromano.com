@@ -3,25 +3,46 @@
         "title":"Gladiator Wheels",
         "link":"https://dreambitsstudio.com",
         "img":"/GW_2.jpg",
-        "featurated":"",
+        "featurated":"FEATURED",
         "role":"Software Engineer",
         "description":"Gladiator Wheels is a fast-paced multiplayer game about figthining cars in a medieval-punk environment. Winners of [Bologna Game Farm 2021](https://bolognagamefarm.com): funding and accelerator program in collaboration with [IIDEA](https://iideassociation.com/). Working on a Networking solution for Multiplayer Synchronization. Worked on the in-game Level-Editor Software Architecture for creating custom arenas.",
+        "long":"Gladiator Wheels is a fast-paced multiplayer game about figthining cars in a medieval-punk environment. Winners of [Bologna Game Farm 2021](https://bolognagamefarm.com): funding and accelerator program in collaboration with [IIDEA](https://iideassociation.com/). Working on a Networking solution for Multiplayer Synchronization. Worked on the in-game Level-Editor Software Architecture for creating custom arenas.",
         "tags":["C#","Unity","Network"],
         "time":"May 2021 - Today",
-        "at":"@ DreamBitsStudio",
-        "atlink":"https://dreambitsstudio.com"
+        "at":"@DreamBitsStudio",
+        "atlink":"https://dreambitsstudio.com",
+        "seemore":"",
+        "slides":[]
     },
     "smartbear":{
         "title":"Smart Bear",
         "link":"https://smart-bear.eu",
         "img":"/SB_1.png",
-        "featurated":"",
+        "featurated":"FEATURED",
         "role":"Big Data Developer",
         "description":"Smart-Bear is a big data platform to offer evidence-based personalized support for healthy and independent living at home. Working on Data Analysis, Data Visualization and predictive analytics with pySpark Apache and Echarts.",
+        "long":"Smart-Bear is a big data platform to offer evidence-based personalized support for healthy and independent living at home. Working on Data Analysis, Data Visualization and predictive analytics with pySpark Apache and Echarts.",
         "tags":["Python","pySpark"],
-        "time":"April 2022 - Today",
-        "at":"@ SESAR - UNIMI",
-        "atlink":"https://sesar.di.unimi.it/"
+        "time":"April 2022 - August 2022",
+        "at":"@SESAR - UNIMI",
+        "atlink":"https://sesar.di.unimi.it/",
+        "seemore":"/smart-bear",
+        "slides":[]
+    },
+    "bolognagamefarm":{
+        "title":"Bologna Game Farm",
+        "link":"https://bolognagamefarm.com",
+        "img":"/default.jpg",
+        "featurated":"FEATURED",
+        "role":"Funding & Accelerator",
+        "description":"Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by [Regione Emilia Romagna](), [Comune di Bologna](), in collaboration with [IIDEA](https://iideassociation.com/).",
+        "long":"Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by [Regione Emilia Romagna](), [Comune di Bologna](), in collaboration with [IIDEA](https://iideassociation.com/).",
+        "tags":["Funding", "Accelerator"],
+        "time":"December 2021 - July 2022",
+        "at":"",
+        "atlink":"https://dreambitsstudio.com",
+        "seemore":"",
+        "slides":[]
     },
     "pyEchart":{
         "title":"pyEchart",
@@ -30,10 +51,28 @@
         "featurated":"",
         "role":"",
         "description":"An unofficial Echarts options generator with Python.",
+        "long":"An unofficial Echarts options generator with Python.",
         "tags":["Python","Echart","Data Visualization"],
         "time":"April 2022 - Today",
         "at":"",
-        "atlink":"/"
+        "atlink":"/",
+        "seemore":"",
+        "slides":[]
+    },
+    "frontdev":{
+        "title":"frontdev",
+        "link":"/",
+        "img":"/default.jpg",
+        "featurated":"",
+        "role":"",
+        "description":"Citterio, shoedepot, ferrarostudiolegale, relowdigital, exagongames, relowgame, ",
+        "long":"",
+        "tags":["NextJS","TailwindCSS", "Wordpress","PHP","Woocommerce"],
+        "time":"April 2022 - Today",
+        "at":"",
+        "atlink":"/",
+        "seemore":"",
+        "slides":[]
     },
     "pystockbot":{
         "title":"pyStockBot",
@@ -42,10 +81,13 @@
         "featurated":"",
         "role":"Data Scientist",
         "description":"An automated trading bot with predictive analytics using many trading indicators.",
-        "tags":["Python","Trading","Machine Learning"],
+        "long":"An automated trading bot with predictive analytics using many trading indicators.",
+        "tags":["Python","MachineLearning","Fintech"],
         "time":"December 2021 - April 2022",
         "at":"",
-        "atlink":"/"
+        "atlink":"/",
+        "seemore":"",
+        "slides":[]
     },
     "Slidify":{
         "title":"pyStockBot",
@@ -54,10 +96,13 @@
         "featurated":"",
         "role":"",
         "description":"An automated trading bot with predictive analytics using many trading .",
+        "long":"An automated trading bot with predictive analytics using many trading .",
         "tags":[""],
         "time":"December 2021 - April 2022",
         "at":"",
-        "atlink":"/"
+        "atlink":"/",
+        "seemore":"",
+        "slides":[]
     },
     "swang":{
         "title":"SWAGVote",
@@ -66,22 +111,28 @@
         "featurated":"",
         "role":"Software Engineer",
         "description":"A University project about creating a system for online voting. Software engineering, Software architecture, data security, data protection.",
+        "long":"A University project about creating a system for online voting. Software engineering, Software architecture, data security, data protection.",
         "tags":["Java","SQLite","Maven","Eclipse"],
         "time":"December 2021 - April 2022",
         "at":"@ UNIMI",
-        "atlink":"/"
+        "atlink":"/",
+        "seemore":"",
+        "slides":[]
     },
     "ung":{
         "title":"Untitled Nature Game",
         "link":"/",
         "img":"/untitle-nature-game.jpg",
         "featurated":"",
-        "role":"Social Automation",
+        "role":"Game Developer",
         "description":"A prototype game about growing-plant based weapons. Many GIFs of the concept went viral on [Twitter](https://twitter.com/TommasoRomano_/status/1414574481281101831?s=20&t=IABqJxjBp5sydf0aaCVe8Q) and [Reddit](https://www.reddit.com/user/TommasoRomano/?sort=top) collecting more than 5 million's views.",
+        "long":"A prototype game about growing-plant based weapons. Many GIFs of the concept went viral on [Twitter](https://twitter.com/TommasoRomano_/status/1414574481281101831?s=20&t=IABqJxjBp5sydf0aaCVe8Q) and [Reddit](https://www.reddit.com/user/TommasoRomano/?sort=top) collecting more than 5 million's views.",
         "tags":["Unity","C#"],
         "time":"December 2021 - Today",
         "at":"@ Relow Digital",
-        "atlink":"/"
+        "atlink":"/",
+        "seemore":"",
+        "slides":[]
     },
     "eig":{
         "title":"Easy Insta Growth",
@@ -90,10 +141,13 @@
         "featurated":"",
         "role":"Automation Engineer",
         "description":"An automated solution for Instagram account management and growth. Used on Fiverr to managed more than hundred clients worldwide.",
+        "long":"An automated solution for Instagram account management and growth. Used on Fiverr to managed more than hundred clients worldwide.",
         "tags":["Python","Selenium"],
         "time":"December 2021 - April 2022",
         "at":"",
-        "atlink":"/"
+        "atlink":"/",
+        "seemore":"",
+        "slides":[]
     },
     "relow":{
         "title":"Relow",
@@ -101,22 +155,28 @@
         "img":"/relow.png",
         "featurated":"",
         "role":"Game Developer",
-        "description":"A multiplayer FPS set in procedural worlds. The main challenge was to synchronize dynamic and procedural arenas to all connected players; advanced AI movements and combats algorithms for these non-static worlds for the online AI bots that fight real-time among real players. Relow was showcased 2 times at Milan Games Week (2019, 2020) and at Svilupparty Bologna (2019).",
+        "description":"A multiplayer FPS set in procedural worlds that was showcased 2 times at Milan Games Week (2019, 2020) and at Svilupparty Bologna (2019).",
+        "long":"A multiplayer FPS set in procedural worlds. The main challenge was to synchronize dynamic and procedural arenas to all connected players; advanced AI movements and combats algorithms for these non-static worlds for the online AI bots that fight real-time among real players. Relow was showcased 2 times at Milan Games Week (2019, 2020) and at Svilupparty Bologna (2019).",
         "tags":["Unity","C#"],
         "time":"June 2018 - November 2020",
         "at":"@ Relow Digital",
-        "atlink":"https://store.steampowered.com/app/966070/Relow/"
+        "atlink":"https://store.steampowered.com/app/966070/Relow/",
+        "seemore":"",
+        "slides":[]
     },
     "polywar":{
         "title":"POLYWAR",
         "link":"https://store.steampowered.com/app/444490/POLYWAR/",
         "img":"/polywar.png",
         "featurated":"",
-        "role":"Lead Game Developer",
-        "description":"during his second year of high school, he started as hobby the development of an online multiplayer FPS to self-learn game design and development. After a year of work, he gained several thousands of followers among socials and decided to publish a demo on gamejolt which had more than 500k downloads. He caught the attention of many publishers but due to his age (16) and lack of experience, he partnered with New Reality Games which released Polywar on Steam at the end of 2016.",
+        "role": "Game Developer",
+        "description":"a low poly online multiplayer FPS which demo on gamejolt  had more than 500k downloads. Partnered with New Reality Games, released Polywar on Steam at the end of 2016",
+        "long":"during his second year of high school, he started as hobby the development of an online multiplayer FPS to self-learn game design and development. After a year of work, he gained several thousands of followers among socials and decided to publish a demo on gamejolt which had more than 500k downloads. He caught the attention of many publishers but due to his age (16) and lack of experience, he partnered with New Reality Games which released Polywar on Steam at the end of 2016.",
         "tags":["Unity","C#"],
         "time":"June 2015 - March 2017",
-        "at":"@ ExagonGames",
-        "atlink":"https://store.steampowered.com/app/444490/POLYWAR/"
+        "at":"@ExagonGames",
+        "atlink":"https://store.steampowered.com/app/444490/POLYWAR/",
+        "seemore":"",
+        "slides":[]
     }
 }

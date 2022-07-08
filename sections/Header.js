@@ -31,7 +31,7 @@ const Header = () => {
    };
 
   return (
-    <header className="top-0 h-15 z-50">
+    <header className="top-0 h-15 z-10">
       <div className="px-4 sm:px-6 py-4 flex justify-center">
         
         {/*<Logo />*/}
