@@ -3,6 +3,7 @@ import Pa from "../components/Pa";
 import content from "../content/projects.json"
 import ReadContent from "./ReadContent";
 import ReactHtmlParser from 'react-html-parser'; 
+import Link from 'next/link'
 
 const Project = ({name}) => {
     const prj = content[name];
@@ -19,7 +20,7 @@ const Project = ({name}) => {
     };
 
     return (
-        <section className="bg-gray-100 dark:bg-gray-900 w-full rounded-lg drop-shadow-lg relative">
+        <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full rounded-lg drop-shadow-lg relative">
             {/*<a href={prj.link} target="_blank" rel="noreferrer noopener">
                 <ExternalLinkIcon className="text-gray-100 absolute top-3 right-3 w-6 h-6 invert"/>
             </a>*/}
@@ -38,9 +39,10 @@ const Project = ({name}) => {
                 <h2 
                     className="text-2xl font-bold mb-4"
                 >
-                    <a className="title-btn" href={prj.link} target="_blank" rel="noreferrer noopener">
+                    {/* <a className="title-btn" href={prj.link} target="_blank" rel="noreferrer noopener">
                     {prj.title}
-                    </a>
+                    </a> */}
+                    {prj.title}
                 </h2>
                 <p className="space-x-3 my-4">
                     <span className="font-bold">{prj.role}</span>
@@ -54,7 +56,8 @@ const Project = ({name}) => {
                 </div>
                 <br></br>
                 <br></br>
-                <p><Pa href={prj.seemore} text="SEE MORE &#8594;" onClick={null}/></p>
+                {/* <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p> */}
+                <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p>
             </section>
             
         </section>

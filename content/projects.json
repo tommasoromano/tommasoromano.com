@@ -1,5 +1,5 @@
 {
-    "gladiatorwheels":{
+    "war-of-wheels":{
         "title":"Gladiator Wheels",
         "link":"https://dreambitsstudio.com",
         "img":"/GW_2.jpg",
@@ -11,10 +11,10 @@
         "time":"May 2021 - Today",
         "at":"@DreamBitsStudio",
         "atlink":"https://dreambitsstudio.com",
-        "seemore":"",
+        "seemore":"/war-of-wheels",
         "slides":[]
     },
-    "smartbear":{
+    "smart-bear":{
         "title":"Smart Bear",
         "link":"https://smart-bear.eu",
         "img":"/SB_1.png",
@@ -29,7 +29,7 @@
         "seemore":"/smart-bear",
         "slides":[]
     },
-    "bolognagamefarm":{
+    "bologna-game-farm":{
         "title":"Bologna Game Farm",
         "link":"https://bolognagamefarm.com",
         "img":"/default.jpg",
@@ -104,7 +104,7 @@
         "seemore":"",
         "slides":[]
     },
-    "swang":{
+    "swagvote":{
         "title":"SWAGVote",
         "link":"/",
         "img":"/default.jpg",
@@ -119,7 +119,7 @@
         "seemore":"",
         "slides":[]
     },
-    "ung":{
+    "untitled-nature-game":{
         "title":"Untitled Nature Game",
         "link":"/",
         "img":"/untitle-nature-game.jpg",
@@ -134,7 +134,7 @@
         "seemore":"",
         "slides":[]
     },
-    "eig":{
+    "easy-insta-growth":{
         "title":"Easy Insta Growth",
         "link":"/",
         "img":"/default.jpg",

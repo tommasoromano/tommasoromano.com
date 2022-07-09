@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0">
           <img
             src="tommaso_romano_photo.jpg"
-            className="w-40 rounded-full ring-offset-4 ring-4 ring-sky-400 hover:animate-spin animate-none"
+            className="w-32 md:w-40 rounded-full ring-offset-4 ring-4 ring-sky-400 hover:animate-spin animate-none"
           />
         </div>
 
@@ -51,7 +51,7 @@ export default function Home() {
         <ArrowDownIcon className="h-10 w-10 animate-bounce"/>
       </div>
 
-      <div className="flex flex-col justify-center items-center space-y-10">
+      <div className="flex flex-col justify-center items-center space-y-10 mt-20">
         
         <h2 className="h2">Work</h2>
         <p className="h2p">
@@ -70,13 +70,13 @@ export default function Home() {
 
         <div className="w-full">
           <Project
-            name="gladiatorwheels"
+            name="war-of-wheels"
           />
         </div>
 
         <div className="w-full">
           <Project
-            name="smartbear"
+            name="smart-bear"
           />
         </div>
 
@@ -89,12 +89,12 @@ export default function Home() {
         <div className="md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0">
           <div className="w-full">
             <Project
-              name="ung"
+              name="untitled-nature-game"
             />
           </div>
           <div className="w-full">
             <Project
-              name="swang"
+              name="swagvote"
             />
           </div>
           <div className="w-full">
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
           <div className="w-full">
             <Project
-              name="eig"
+              name="easy-insta-growth"
             />
           </div>
           <div className="w-full">
@@ -131,7 +131,7 @@ export default function Home() {
 
         <div className="w-full">
           <Project
-            name="bolognagamefarm"
+            name="bologna-game-farm"
           />
         </div>
 
