@@ -57,7 +57,8 @@ const Project = ({name}) => {
                 <br></br>
                 <br></br>
                 {/* <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p> */}
-                <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p>
+                {/* <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p> */}
+                <p><a className="inline-btn">SEE MORE &#8594;</a></p>
             </section>
             
         </section>
