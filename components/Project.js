@@ -2,7 +2,7 @@ import{ExternalLinkIcon} from "@heroicons/react/outline";
 import Pa from "../components/Pa";
 import content from "../content/projects.json"
 import ReadContent from "./ReadContent";
-import ReactHtmlParser from 'react-html-parser'; 
+// import ReactHtmlParser from 'react-html-parser'; 
 import Link from 'next/link'
 
 const Project = ({name}) => {
@@ -27,7 +27,7 @@ const Project = ({name}) => {
             {renderFeatured()}
             <img
                 src={prj.img}
-                className="object-cover w-full rounded-t-lg "
+                className="object-cover w-full rounded-t-lg aspect-[16/9]"
             />
             {/** 
              * 

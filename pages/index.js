@@ -87,6 +87,12 @@ export default function Home() {
         */}
 
         <div className="md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0">
+          
+          <div className="w-full">
+            <Project
+              name="pystockbot"
+            />
+          </div>
           <div className="w-full">
             <Project
               name="untitled-nature-game"
@@ -95,11 +101,6 @@ export default function Home() {
           <div className="w-full">
             <Project
               name="swagvote"
-            />
-          </div>
-          <div className="w-full">
-            <Project
-              name="pystockbot"
             />
           </div>
           <div className="w-full">
