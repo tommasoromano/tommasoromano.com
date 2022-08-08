@@ -5,12 +5,16 @@ function WarOfWheels( ) {
         <ProjectLayout>
             <section className="w-full text-lg mt-16">
                 
-                <p>Lorem Ipsum</p>
                 <img
                     src="GW_3.png"
                     className="inline-img"
                 />
-                <p>Lorem ipsum</p>
+                {/* <iframe className="w-full aspect-[16/9]" src='https://gfycat.com/ifr/GoodnaturedPlushFruitfly'></iframe>                 */}
+                <img
+                    src="gw_5.gif"
+                    className="inline-img"
+                />
+
 
             </section>
         </ProjectLayout>

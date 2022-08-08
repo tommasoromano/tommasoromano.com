@@ -86,7 +86,7 @@ export default function Home() {
          * 
         */}
 
-        <div className="md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0">
+        <div className="w-full space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0">
           
           <div className="w-full">
             <Project
