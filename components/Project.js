@@ -66,7 +66,7 @@ const Project = ({name}) => {
                 </p>
                 {renderField()}
                 {/* <div className="space-x-3 my-4 max-h-8 break-normal">{listTags}</div> */}
-                <div className="collapse mt-4 min-h-[10rem] max-h-[10rem] overflow-y-auto">
+                <div className="collapse mt-4 min-h-[16rem] max-h-[16rem] md:min-h-[10rem] md:max-h-[10rem] overflow-y-auto">
                     <ReadContent content={prj.description}/>
                     {/* ReactHtmlParser (prj.description) */}
                 </div>
