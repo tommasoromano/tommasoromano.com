@@ -166,17 +166,27 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col justify-center items-center space-y-10 mt-20">
-        <h2 className="h2">Athletics</h2>
+        <h2 className="h2">Hobbies</h2>
         <p className="h2p">
-          A list of not-Computer-Science-related but athletics achievements I&apos;m proud of
+          A list of not-Computer-Science-related but achievements I&apos;m proud of
         </p>
 
         <p 
-            className="text-2xl font-bold"
+            className="text-2xl font-bold text-center"
         >
+        <section>Athletics</section>
+        <br></br>
         <section>&#129352; 4x200m - Italian Championship Ancona 2022</section>
           <section>&#129353; 4x100m - Italian Championship Grosseto 2021</section>
           <section>&#129353; 4x100m - Italian Championship Grosseto 2020</section>
+          <br></br>
+        <section>Drummer</section>
+        <br></br>
+        <section>Yamaha Music Foundation - Grade 6</section>
+        <section>Yamaha Music Foundation - Grade 7</section>
+        <section>Yamaha Music Foundation - Grade 8</section>
+        <section>Yamaha Music Foundation - Grade 9</section>
+        <section>Yamaha Music Foundation - Grade 10</section>
         </p>
 
       </div>

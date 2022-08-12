@@ -19,6 +19,21 @@ const Project = ({name}) => {
         }
     };
 
+    const renderField = () => {
+        if (prj.field === "") {
+            return null;
+        } else {
+            return ( <p><span className="inline-btn">Fields:</span> {prj.field}</p> );
+        }
+    };
+    const renderTech = () => {
+        if (prj.tech === "") {
+            return null;
+        } else {
+            return ( <p><span className="inline-btn">Tech:</span> {prj.tech}</p> );
+        }
+    };
+
     return (
         <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full rounded-lg drop-shadow-lg relative">
             {/*<a href={prj.link} target="_blank" rel="noreferrer noopener">
@@ -49,16 +64,18 @@ const Project = ({name}) => {
                     <span className="italic">{prj.time}</span>
                     <Pa href={prj.atlink} text={prj.at}/>
                 </p>
-                <div className="space-x-3 my-4 max-h-8 break-normal">{listTags}</div>
-                <div className="collapse mt-4 min-h-[8rem] max-h-[8rem] overflow-y-auto">
+                {renderField()}
+                {/* <div className="space-x-3 my-4 max-h-8 break-normal">{listTags}</div> */}
+                <div className="collapse mt-4 min-h-[10rem] max-h-[10rem] overflow-y-auto">
                     <ReadContent content={prj.description}/>
                     {/* ReactHtmlParser (prj.description) */}
                 </div>
                 <br></br>
-                <br></br>
-                {/* <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p> */}
-                {/* <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p> */}
-                <p><a className="inline-btn">SEE MORE &#8594;</a></p>
+                {renderTech()}
+                {/* <br></br>
+                <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p>
+                <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p>
+                <p><a className="inline-btn">SEE MORE &#8594;</a></p> */}
             </section>
             
         </section>
