@@ -105,56 +105,40 @@ export default function Home() {
             />
         </div>
 
-        {/* <Link href="/projects"><a className="btn2">See all &#8594;</a></Link> */}
+        <Link href="/projects"><a className="btn2">See all &#8594;</a></Link>
 
         
       </div>
 
-      <div className="flex flex-col justify-center items-center space-y-10 mt-20">
+      <div className="article-container">
         <h2 className="h2">Recognitions</h2>
         <p className="h2p">
           A list of news, articles, interviews, awards, expositions, events, talks and achievements. 
           To show only relevant recognitions, many are hidden
         </p>
-
-        <div className="w-full">
           <Project
             name="bologna-game-farm"
           />
-        </div>
-
-        <div className="w-full">
           <Article
             name="top100-2022"
           />
-        </div>
-        <div className="w-full">
           <Article
             name="frstplybl22"
           />
-        </div>
-        <div className="w-full">
           <Article
             name="bgf-win"
           />
-        </div>
-        <div className="w-full">
           <Article
             name="a-80lvl"
           />
-        </div>
-        <div className="w-full">
           <Article
             name="t-social"
           />
-        </div>
-        <div className="w-full">
           <Article
             name="i-mgwx"
           />
-        </div>
 
-        {/* <Link href="/articles"><a className="btn2">See all &#8594;</a></Link> */}
+        <Link href="/articles"><a className="btn2">See all &#8594;</a></Link>
 
       </div>
 

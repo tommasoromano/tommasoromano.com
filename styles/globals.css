@@ -60,10 +60,10 @@
   .inline-img {
     @apply w-full rounded-lg my-12;
   }
-  .proj-container {
-
+  .article-container {
+    @apply flex flex-col justify-center items-center space-y-10 mt-20;
   }
   .proj-container-2 {
-    @apply w-full space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0 justify-items-stretch place-content-stretch place-items-stretch
+    @apply w-full space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0 justify-items-stretch place-content-stretch place-items-stretch;
   }
 }

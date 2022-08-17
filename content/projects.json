@@ -1,5 +1,7 @@
 {
     "war-of-wheels":{
+        "show":true,
+        "name":"war-of-wheels",
         "title":"Gladiator Wheels",
         "link":"https://dreambitsstudio.com",
         "img":"/GW_2.jpg",
@@ -7,7 +9,7 @@
         "role":"Software Engineer",
         "description":"Gladiator Wheels is a fast-paced multiplayer game about figthining cars in a medieval-punk environment. Winners of [Bologna Game Farm 2021](https://bolognagamefarm.com): funding and accelerator program in collaboration with [IIDEA](https://iideassociation.com/). Working on a Networking solution for Multiplayer Synchronization. Worked on the in-game Level-Editor Software Architecture for creating custom arenas.",
         "long":"Gladiator Wheels is a fast-paced multiplayer game about figthining cars in a medieval-punk environment. Winners of [Bologna Game Farm 2021](https://bolognagamefarm.com): funding and accelerator program in collaboration with [IIDEA](https://iideassociation.com/). Working on a Networking solution for Multiplayer Synchronization. Worked on the in-game Level-Editor Software Architecture for creating custom arenas.",
-        "field":"Software Engineering, Game Development, AI Enginnering, Gameplay Programming, UI Programming",
+        "field":"Software Engineering, Game Development, AI Engineering, Gameplay Programming, UI Programming",
         "tags":["Software Engineer","AI Engineer","Game Developer","Network Architect","Gameplay Programmer","UI Programmer"],
         "time":"May 2021 - Present",
         "at":"@DreamBitsStudio",
@@ -17,6 +19,8 @@
         "slides":[]
     },
     "smart-bear":{
+        "show":true,
+        "name":"smart-bear",
         "title":"Smart Bear",
         "link":"https://smart-bear.eu",
         "img":"/SB_1.png",
@@ -34,6 +38,8 @@
         "slides":[]
     },
     "bologna-game-farm":{
+        "show":false,
+        "name":"bologna-game-farm",
         "title":"Bologna Game Farm",
         "link":"https://bolognagamefarm.com",
         "img":"/bgf_0.jpg",
@@ -51,6 +57,8 @@
         "slides":[]
     },
     "pyEchart":{
+        "show":false,
+        "name":"pyEchart",
         "title":"pyEchart",
         "link":"/",
         "img":"/GW_1.jpg",
@@ -68,6 +76,8 @@
         "slides":[]
     },
     "frontdev":{
+        "show":false,
+        "name":"frontdev",
         "title":"frontdev",
         "link":"/",
         "img":"/default.jpg",
@@ -85,6 +95,8 @@
         "slides":[]
     },
     "pystockbot":{
+        "show":true,
+        "name":"pystockbot",
         "title":"pyStockBot",
         "link":"/",
         "img":"/stock_0.jpg",
@@ -102,6 +114,8 @@
         "slides":[]
     },
     "Slidify":{
+        "show":false,
+        "name":"Slidify",
         "title":"pyStockBot",
         "link":"/",
         "img":"/default.jpg",
@@ -119,6 +133,8 @@
         "slides":[]
     },
     "swagvote":{
+        "show":true,
+        "name":"swagvote",
         "title":"SWAGVote",
         "link":"/",
         "img":"/sw_0.jpg",
@@ -136,6 +152,8 @@
         "slides":[]
     },
     "untitled-nature-game":{
+        "show":true,
+        "name":"untitled-nature-game",
         "title":"Untitled Nature Game",
         "link":"/",
         "img":"/untitle-nature-game.jpg",
@@ -153,6 +171,8 @@
         "slides":[]
     },
     "easy-insta-growth":{
+        "show":true,
+        "name":"easy-insta-growth",
         "title":"Easy Insta Growth",
         "link":"/",
         "img":"/default.jpg",
@@ -170,6 +190,8 @@
         "slides":[]
     },
     "relow":{
+        "show":true,
+        "name":"relow",
         "title":"Relow",
         "link":"https://store.steampowered.com/app/966070/Relow/",
         "img":"/relow.png",
@@ -187,6 +209,8 @@
         "slides":[]
     },
     "polywar":{
+        "show":true,
+        "name":"polywar",
         "title":"POLYWAR",
         "link":"https://store.steampowered.com/app/444490/POLYWAR/",
         "img":"/polywar.png",

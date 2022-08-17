@@ -48,7 +48,7 @@ const Project = ({name}) => {
                  * 
                 */}
                 {/* <section className="w-full h-full p-8 space-y-4"> */}
-                <section className="w-full h-auto p-8 flex flex-col flex-wrap space-y-6">
+                <section className="w-full h-auto p-8 flex flex-col flex-wrap space-y-8">
                     
                     <h2 
                         className="text-2xl font-bold"

@@ -1,13 +1,14 @@
 import ProjectLayout from "../sections/ProjectLayout"
-import Project from "../components/Project";
-import content from "../content/projects.json"
+import Article from "../components/Article";
+import content from "../content/articles.json"
 import { useState, useEffect } from "react";
 import Link from 'next/link'
 
 function Projects( ) {
 
-    const content_filter = ["war-of-wheels","smart-bear","pystockbot","swagvote","untitled-nature-game","easy-insta-growth","relow","polywar"]
-    const content_filtered = Object.entries(content).filter((item) => content_filter.includes(item[0]));
+    // const content_filter = ["top100-2022","frstplybl22","svpty2022-ntw","bgf-win","t-social","a-80lvl","i-mgwx","e-svpty21","e-mgwx"]
+    // const content_filtered = Object.entries(content).filter((item) => content_filter.includes(item[0]));
+    const content_filtered = Object.entries(content).filter((item) => item[1].show === true)
     const [items, setItems] = useState([]);
     const [filter, setFilter] = useState("");
 
@@ -16,11 +17,12 @@ function Projects( ) {
     }, []);
 
     const data = Object.values(items);
-    const filter_items = ["All","Software","Frontend","Data","Game"];
+    // const filter_items = [...new Set(data.map((item) => item.field))];
+    const filter_items = ["All","Article","Talk","Award","Event","Interview","Exposition"];
 
     function search(items) {
         return items.filter(
-            (item) => item[1].field.includes((filter === filter_items[0] ? "" : filter))
+            (item) => item[1].tags[0].includes((filter === filter_items[0] ? "" : filter))
         );
     }
 
@@ -34,9 +36,9 @@ function Projects( ) {
                 ))}
             </section>
                 
-            <div className="proj-container-2">
+            <div className="article-container">
                 {search(data).map((item) => (
-                    <Project
+                    <Article
                     name={item[1].name}
                     />
                 ))}

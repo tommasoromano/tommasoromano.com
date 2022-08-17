@@ -9,6 +9,7 @@ const Article = ({name}) => {
     );
 
     return (
+        <div className="w-full">
         <section className="w-full px-8">
             
             <h2 
@@ -28,6 +29,8 @@ const Article = ({name}) => {
                 <span>{artcl.description}</span>
             </p>
         </section>
+
+        </div>
     );
 }
 

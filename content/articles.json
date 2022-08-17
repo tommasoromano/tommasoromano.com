@@ -1,5 +1,7 @@
 {
     "top100-2022":{
+        "show":true,
+        "name":"top100-2022",
         "title":"Top 100 to follow in the videogame industry in Italy",
         "link":"https://startupitalia.eu/97380-20220717-163-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
         "date":"17 July 2022",
@@ -7,6 +9,8 @@
         "tags":["Article"]
     },   
     "frstplybl22":{
+        "show":true,
+        "name":"frstplybl22",
         "title":"First Playable",
         "link":"https://firstplayable.it",
         "date":"6-8 July 2022",
@@ -14,6 +18,8 @@
         "tags":["Event"]
     },    
     "svpty2022-ntw":{
+        "show":true,
+        "name":"svpty2022-ntw",
         "title":"Realtime Networking for IndieDevs",
         "link":"/",
         "date":"14 May 2022",
@@ -21,6 +27,8 @@
         "tags":["Talk"]
     },
     "bgf-win":{
+        "show":true,
+        "name":"bgf-win",
         "title":"Winners of Bologna Game Farm",
         "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_startups-videogames-activity-6878039527848472576-etCp",
         "date":"15 December 2021",
@@ -28,6 +36,8 @@
         "tags":["Award"]
     },
     "t-social":{
+        "show":true,
+        "name":"t-social",
         "title":"Social Media for Game Developers",
         "link":"/",
         "date":"10 July 2021",
@@ -35,6 +45,8 @@
         "tags":["Talk"]
     },
     "a-80lvl":{
+        "show":true,
+        "name":"a-80lvl",
         "title":"This Gun in Unity Creates Climbable Ivy",
         "link":"https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
         "date":"25 October 2021, Arti Burton for 80LVL",
@@ -42,6 +54,8 @@
         "tags":["Article"]
     },
     "i-mgwx":{
+        "show":true,
+        "name":"i-mgwx",
         "title":"One Man Company (Round Table)",
         "link":"/",
         "date":"29 November 2020",
@@ -49,6 +63,8 @@
         "tags":["Interview"]
     },
     "e-svpty21":{
+        "show":true,
+        "name":"e-svpty21",
         "title":"Svilupparty",
         "link":"/",
         "date":"10 July 2021",
@@ -56,6 +72,8 @@
         "tags":["Exposition"]
     },
     "e-mgwx":{
+        "show":true,
+        "name":"e-mgwx",
         "title":"Milan Games Week X",
         "link":"/",
         "date":"27 November 2020",
