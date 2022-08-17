@@ -23,62 +23,60 @@ const Project = ({name}) => {
         if (prj.field === "") {
             return null;
         } else {
-            return ( <p><span className="inline-btn">Fields:</span> {prj.field}</p> );
+            return ( <p className=""><span className="inline-btn">Fields:</span> {prj.field}</p> );
         }
     };
     const renderTech = () => {
         if (prj.tech === "") {
             return null;
         } else {
-            return ( <p><span className="inline-btn">Tech:</span> {prj.tech}</p> );
+            return ( <p className=""><span className="inline-btn">Tech:</span> {prj.tech}</p> );
         }
     };
 
     return (
-        <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full rounded-lg drop-shadow-lg relative">
-            {/*<a href={prj.link} target="_blank" rel="noreferrer noopener">
-                <ExternalLinkIcon className="text-gray-100 absolute top-3 right-3 w-6 h-6 invert"/>
-            </a>*/}
-            {renderFeatured()}
-            <img
-                src={prj.img}
-                className="object-cover w-full rounded-t-lg aspect-[16/9]"
-            />
-            {/** 
-             * 
-             *  CONTENT
-             * 
-            */}
-            <section className="w-full p-8">
+        <div className="w-full">
+            <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full h-full rounded-lg drop-shadow-lg relative">
+                {renderFeatured()}
+                <img
+                    src={prj.img}
+                    className="object-cover w-full rounded-t-lg aspect-[16/9]"
+                />
+                {/** 
+                 * 
+                 *  CONTENT
+                 * 
+                */}
+                {/* <section className="w-full h-full p-8 space-y-4"> */}
+                <section className="w-full h-auto p-8 flex flex-col flex-wrap space-y-6">
+                    
+                    <h2 
+                        className="text-2xl font-bold"
+                        // className="text-2xl font-bold mb-4"
+                    >
+                        {prj.title}
+                    </h2>
+                    <p className="space-x-3">
+                    {/* <p className="space-x-3 my-4"> */}
+                        <span className="font-bold">{prj.role}</span>
+                        <span className="italic">{prj.time}</span>
+                        <Pa href={prj.atlink} text={prj.at}/>
+                    </p>
+                    {renderField()}
+                    {/* <div className="collapse mt-4 min-h-[16rem] max-h-[16rem] md:min-h-[16rem] md:max-h-[16rem] overflow-y-auto"> */}
+                    <div className="">
+                        <ReadContent content={prj.description}/>
+                    </div>
+                    
+                    {renderTech()}
+                    {/* <br></br>
+                    <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p>
+                    <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p>
+                    <p><a className="inline-btn">SEE MORE &#8594;</a></p> */}
+                </section>
                 
-                <h2 
-                    className="text-2xl font-bold mb-4"
-                >
-                    {/* <a className="title-btn" href={prj.link} target="_blank" rel="noreferrer noopener">
-                    {prj.title}
-                    </a> */}
-                    {prj.title}
-                </h2>
-                <p className="space-x-3 my-4">
-                    <span className="font-bold">{prj.role}</span>
-                    <span className="italic">{prj.time}</span>
-                    <Pa href={prj.atlink} text={prj.at}/>
-                </p>
-                {renderField()}
-                {/* <div className="space-x-3 my-4 max-h-8 break-normal">{listTags}</div> */}
-                <div className="collapse mt-4 min-h-[16rem] max-h-[16rem] md:min-h-[10rem] md:max-h-[10rem] overflow-y-auto">
-                    <ReadContent content={prj.description}/>
-                    {/* ReactHtmlParser (prj.description) */}
-                </div>
-                <br></br>
-                {renderTech()}
-                {/* <br></br>
-                <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p>
-                <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p>
-                <p><a className="inline-btn">SEE MORE &#8594;</a></p> */}
             </section>
-            
-        </section>
+        </div>
 
     );
 }

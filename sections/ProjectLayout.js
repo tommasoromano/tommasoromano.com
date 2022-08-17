@@ -11,7 +11,12 @@ import {useRouter} from 'next/router';
 
 const ProjectLayout = ({children}) => {
     const router = useRouter()
-    const prj = content[router.asPath.replace("/","")];
+    var prj = content[router.asPath.replace("/","")];
+    if (!prj) {
+        prj = {
+        seemore: "top"
+      }
+    }
   return (
     <>
       <Head>

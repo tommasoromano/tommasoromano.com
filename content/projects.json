@@ -92,7 +92,7 @@
         "role":"Data Scientist",
         "description":"An automated trading bot with predictive analytics using many trading indicators. Used backtracking algorithms and caching system testing on 5-years-long datas for winning strategies and their performance. Running 24/7 on a RaspberryPi4 sending messages through a custom Telegram Bot",
         "long":"An automated trading bot with predictive analytics using many trading indicators.",
-        "field":"Fintech, AI Engineering, Automation Engineering",
+        "field":"Fintech, Data Engineering, AI Engineering, Automation Engineering",
         "tags":["Fintech","AI Engineering","ML Engineering"],
         "time":"December 2021 - Present",
         "at":"",

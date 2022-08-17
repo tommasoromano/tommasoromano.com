@@ -4,6 +4,7 @@ import Article from "../components/Article";
 import Pa from "../components/Pa";
 import{ArrowDownIcon} from "@heroicons/react/solid";
 import Socials from "../components/Socials"
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -22,24 +23,24 @@ export default function Home() {
 
           <h2 className="h2">Hi, I&apos;m Tommaso</h2>
           <p className="h2p">
-    {/*founder and developer <Pa href={"/"} text={"@RelowDigital"}/>,
+            {/*founder and developer <Pa href={"/"} text={"@RelowDigital"}/>,
             Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/>,
             currently working on <Pa href={"https://dreambitsstudio.com"} text={"Gladiator Wheels"}/>
             and <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/>*/}
-  <ul className="list-none">
-    <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@DreamBitsStudio"}/></li>
-      <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li>
-            <li>Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/></li>
-              </ul>
+            <ul className="list-none">
+              <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@DreamBitsStudio"}/></li>
+              <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li>
+              <li>Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/></li>
+            </ul>
           </p>
           
           <div className="flex items-center justify-center space-x-5">
-            <button className="btn2" type="button" onClick={null} >
+            <a className="btn2" href="#work">
               Discover
-            </button>
-            <button className="btn" type="button" onClick={null} href="/tommaso_romano_cv.pdf">
+            </a>
+            <a className="btn" href="/tommaso_romano_cv.pdf">
               Resume
-            </button>
+            </a>
           </div>
           <Socials/>
 
@@ -51,7 +52,7 @@ export default function Home() {
         <ArrowDownIcon className="h-10 w-10 animate-bounce"/>
       </div>
 
-      <div className="flex flex-col justify-center items-center space-y-10 mt-20">
+      <div className="flex flex-col justify-center items-center space-y-10 mt-20" id="work">
         
         <h2 className="h2">Work</h2>
         <p className="h2p">
@@ -68,17 +69,13 @@ export default function Home() {
          * 
         */}
 
-        <div className="w-full">
           <Project
             name="war-of-wheels"
           />
-        </div>
 
-        <div className="w-full">
           <Project
             name="smart-bear"
           />
-        </div>
 
         {/** 
          * 
@@ -86,39 +83,29 @@ export default function Home() {
          * 
         */}
 
-        <div className="w-full space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 my-4 md:m-0">
+        <div className="proj-container-2">
           
-          <div className="w-full">
             <Project
               name="pystockbot"
             />
-          </div>
-          <div className="w-full">
             <Project
               name="untitled-nature-game"
             />
-          </div>
-          <div className="w-full">
             <Project
               name="swagvote"
             />
-          </div>
-          <div className="w-full">
             <Project
               name="easy-insta-growth"
             />
-          </div>
-          <div className="w-full">
             <Project
               name="relow"
             />
-          </div>
-          <div className="w-full">
             <Project
               name="polywar"
             />
-          </div>
         </div>
+
+        {/* <Link href="/projects"><a className="btn2">See all &#8594;</a></Link> */}
 
         
       </div>
@@ -138,10 +125,14 @@ export default function Home() {
 
         <div className="w-full">
           <Article
+            name="top100-2022"
+          />
+        </div>
+        <div className="w-full">
+          <Article
             name="frstplybl22"
           />
         </div>
-
         <div className="w-full">
           <Article
             name="bgf-win"
@@ -162,6 +153,8 @@ export default function Home() {
             name="i-mgwx"
           />
         </div>
+
+        {/* <Link href="/articles"><a className="btn2">See all &#8594;</a></Link> */}
 
       </div>
 

@@ -22,7 +22,7 @@ const ReadContent = ({content}) => {
     };
 
     return (
-        <p>{interpret()}</p>
+        <p className="text-left">{interpret()}</p>
     );
 
 }

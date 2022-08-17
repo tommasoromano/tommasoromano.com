@@ -1,4 +1,11 @@
 {
+    "top100-2022":{
+        "title":"Top 100 to follow in the videogame industry in Italy",
+        "link":"https://startupitalia.eu/97380-20220717-163-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
+        "date":"17 July 2022",
+        "description":"A big list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
+        "tags":["Article"]
+    },   
     "frstplybl22":{
         "title":"First Playable",
         "link":"https://firstplayable.it",
@@ -30,8 +37,8 @@
     "a-80lvl":{
         "title":"This Gun in Unity Creates Climbable Ivy",
         "link":"https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
-        "date":"25 October 2021",
-        "description":"Arti Burton, 80LVL. Tommaso Romanò shared a look at an updated version of his procedural gun.",
+        "date":"25 October 2021, Arti Burton for 80LVL",
+        "description":"Tommaso Romanò shared a look at an updated version of his procedural gun.",
         "tags":["Article"]
     },
     "i-mgwx":{
