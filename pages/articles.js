@@ -8,7 +8,7 @@ function Projects( ) {
 
     // const content_filter = ["top100-2022","frstplybl22","svpty2022-ntw","bgf-win","t-social","a-80lvl","i-mgwx","e-svpty21","e-mgwx"]
     // const content_filtered = Object.entries(content).filter((item) => content_filter.includes(item[0]));
-    const content_filtered = Object.entries(content).filter((item) => item[1].show === true)
+    const content_filtered = Object.entries(content).filter((item) => item[1].show === true);
     const [items, setItems] = useState([]);
     const [filter, setFilter] = useState("");
 
@@ -26,20 +26,26 @@ function Projects( ) {
         );
     }
 
+    function getNumbers(item_filter) {
+        return (
+            item_filter === filter_items[0] ? (item_filter+" ("+content_filtered.length+")") : (item_filter+" ("+(data.filter((item) => item[1].tags[0].includes(item_filter))).length+")")
+        );
+    }
+
     return (
         <ProjectLayout>
             <section className="w-full text-lg mt-16">
             
             <section className="mb-8 text-center space-x-4 space-y-4">
                 {filter_items.map((item) => (
-                    <button className="btn2" type="button" onClick={(e) => setFilter(item)} value={item} >{item}</button>
+                    <button className="btn2" type="button" onClick={(e) => setFilter(item)} value={item} key={item}>{getNumbers(item)}</button>
                 ))}
             </section>
                 
             <div className="article-container">
                 {search(data).map((item) => (
                     <Article
-                    name={item[1].name}
+                    name={item[1].name} key={item[1].name}
                     />
                 ))}
             </div>

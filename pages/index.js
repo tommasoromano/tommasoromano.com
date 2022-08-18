@@ -71,10 +71,12 @@ export default function Home() {
 
           <Project
             name="war-of-wheels"
+            featurated="FEATURED"
           />
 
           <Project
             name="smart-bear"
+            featurated="FEATURED"
           />
 
         {/** 
@@ -87,21 +89,27 @@ export default function Home() {
           
             <Project
               name="pystockbot"
+              featurated=""
             />
             <Project
               name="untitled-nature-game"
+              featurated=""
             />
             <Project
               name="swagvote"
+              featurated=""
             />
             <Project
               name="easy-insta-growth"
+              featurated=""
             />
             <Project
               name="relow"
+              featurated=""
             />
             <Project
               name="polywar"
+              featurated=""
             />
         </div>
 
@@ -118,6 +126,7 @@ export default function Home() {
         </p>
           <Project
             name="bologna-game-farm"
+            featurated="FEATURATED"
           />
           <Article
             name="top100-2022"
@@ -129,7 +138,7 @@ export default function Home() {
             name="bgf-win"
           />
           <Article
-            name="a-80lvl"
+            name="a-80lvl-2"
           />
           <Article
             name="t-social"

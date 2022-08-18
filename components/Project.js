@@ -5,17 +5,17 @@ import ReadContent from "./ReadContent";
 // import ReactHtmlParser from 'react-html-parser'; 
 import Link from 'next/link'
 
-const Project = ({name}) => {
+const Project = ({name,featurated}) => {
     const prj = content[name];
     const listTags = prj.tags.map((t) => 
         <span key={t} className="bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded-lg">{t}</span> 
     );
 
     const renderFeatured = () => {
-        if (prj.featurated === "") {
+        if (featurated === "") {
             return null;
         } else {
-            return ( <span className="bg-gray-200 text-gray-800 font-bold p-2 m-1 rounded-lg drop-shadow-lg absolute top-3 left-3">{prj.featurated}</span> );
+            return ( <span className="bg-gray-200 text-gray-800 font-bold p-2 m-1 rounded-lg drop-shadow-lg absolute top-3 left-3">{featurated}</span> );
         }
     };
 

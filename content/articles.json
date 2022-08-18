@@ -6,12 +6,12 @@
         "link":"https://startupitalia.eu/97380-20220717-163-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
         "date":"17 July 2022",
         "description":"A big list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
-        "tags":["Article"]
+        "tags":["Award"]
     },   
     "frstplybl22":{
         "show":true,
         "name":"frstplybl22",
-        "title":"First Playable",
+        "title":"First Playable 2022",
         "link":"https://firstplayable.it",
         "date":"6-8 July 2022",
         "description":"Firts Playable is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds like Nintendo Europe, Epic Games, Acer and so on",
@@ -35,6 +35,33 @@
         "description":"Winners with GladiatorWheels of the funding project Bologna Game Farm: accelerator dedicated to innovative startups for the development of videogames",
         "tags":["Award"]
     },
+    "a-80lvl-2":{
+        "show":true,
+        "name":"a-80lvl-2",
+        "title":"This Gun in Unity Creates Climbable Ivy",
+        "link":"https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
+        "date":"25 October 2021, Arti Burton for 80LVL",
+        "description":"Tommaso Romanò shared a look at an updated version of his procedural gun",
+        "tags":["Article"]
+    },
+    "top100-2021":{
+        "show":true,
+        "name":"top100-2021",
+        "title":"Top 100 to follow in the videogame industry in Italy",
+        "link":"https://startupitalia.eu/90664-20210826-142-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
+        "date":"1 September 2021",
+        "description":"A big list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
+        "tags":["Award"]
+    },
+    "a-80lvl-1":{
+        "show":true,
+        "name":"a-80lvl-1",
+        "title":"A Game Developer Makes a Gun That Creates Flower Bridges",
+        "link":"https://80.lv/articles/a-game-developer-makes-a-gun-that-creates-flower-bridges/",
+        "date":"14 July 2021, Kseniya Serebrennikova for 80LVL",
+        "description":"Italian Developer Tommaso Romano created another beautiful vegetation generator in Unity",
+        "tags":["Article"]
+    },
     "t-social":{
         "show":true,
         "name":"t-social",
@@ -44,13 +71,22 @@
         "description":"Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure",
         "tags":["Talk"]
     },
-    "a-80lvl":{
+    "e-svpty21":{
         "show":true,
-        "name":"a-80lvl",
-        "title":"This Gun in Unity Creates Climbable Ivy",
-        "link":"https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
-        "date":"25 October 2021, Arti Burton for 80LVL",
-        "description":"Tommaso Romanò shared a look at an updated version of his procedural gun.",
+        "name":"e-svpty21",
+        "title":"Svilupparty 2021",
+        "link":"/",
+        "date":"10 July 2021",
+        "description":"Showcased an Untitled Nature Game at Bologna, Italy",
+        "tags":["Exposition"]
+    },
+    "a-80lvl-0":{
+        "show":true,
+        "name":"a-80lvl-0",
+        "title":"A Reddit User Has Created a Procedural Ivy Generator",
+        "link":"https://80.lv/articles/a-reddit-user-has-created-a-procedural-ivy-generator/",
+        "date":"23 June 2021, Theodore Nikitinfor for 80LVL",
+        "description":"A Reddit user Tommaso Romanò has created a procedural ivy generator in Unity",
         "tags":["Article"]
     },
     "i-mgwx":{
@@ -59,17 +95,8 @@
         "title":"One Man Company (Round Table)",
         "link":"/",
         "date":"29 November 2020",
-        "description":"Emilio Cozzi, with Fortuna Imperatore and Johnny Lonack. Pros and cons of working as a Solo-Game-Developer.",
+        "description":"Emilio Cozzi, with Fortuna Imperatore and Johnny Lonack. Pros and cons of working as a Solo-Game-Developer",
         "tags":["Interview"]
-    },
-    "e-svpty21":{
-        "show":true,
-        "name":"e-svpty21",
-        "title":"Svilupparty",
-        "link":"/",
-        "date":"10 July 2021",
-        "description":"",
-        "tags":["Exposition"]
     },
     "e-mgwx":{
         "show":true,
@@ -77,7 +104,88 @@
         "title":"Milan Games Week X",
         "link":"/",
         "date":"27 November 2020",
-        "description":"",
+        "description":"Showcased RELOW at Milan Games Week X on Twitch (online due to the pandemic)",
         "tags":["Exposition"]
+    },
+    "t-svpty20":{
+        "show":true,
+        "name":"t-svpty20",
+        "title":"The Making of RELOW",
+        "link":"/",
+        "date":"6 September 2020",
+        "description":"Post-mortem talk of the multiplayer game RELOW",
+        "tags":["Talk"]
+    },
+    "e-svpty20":{
+        "show":true,
+        "name":"e-svpty20",
+        "title":"Svilupparty 2020",
+        "link":"/",
+        "date":"6 September 2020",
+        "description":"Showcased RELOW at Bologna, Italy",
+        "tags":["Exposition"]
+    },   
+    "frstplybl20":{
+        "show":true,
+        "name":"frstplybl20",
+        "title":"First Playable 2020",
+        "link":"https://firstplayable.it",
+        "date":"15-16 July 2020",
+        "description":"Firts Playable is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds like Nintendo Europe, Epic Games, Acer and so on",
+        "tags":["Event"]
+    },
+    "vv-game":{
+        "show":true,
+        "name":"vv-game",
+        "title":"An introduction to Game Development",
+        "link":"/",
+        "date":"13 April 2020",
+        "description":"A brief lecture to Game Development: technologies, professionals and work positions",
+        "tags":["Talk"]
+    },
+    "i-ludenz":{
+        "show":true,
+        "name":"i-ludenz",
+        "title":"The story of Tommaso Romano",
+        "link":"https://ludenz.podbean.com/e/editori-parassiti-per-giovani-sviluppatori-la-storia-di-tommaso-romano/",
+        "date":"27 October 2019, Luigi Marrone for Ludenz",
+        "description":"the meeting with the young developer Tommaso Romanò, a nineteen year old game designer selected for his game Relow",
+        "tags":["Interview"]
+    },
+    "i-4gamehz":{
+        "show":true,
+        "name":"i-4gamehz",
+        "title":"When talent walks alone",
+        "link":"https://ludenz.podbean.com/e/editori-parassiti-per-giovani-sviluppatori-la-storia-di-tommaso-romano/",
+        "date":"14 October 2019, Roberto di Marino for 4GameHZ",
+        "description":"We had the enormous pleasure and stellar honor of being able to meet one of these lonely talents, one of those characters who can only make us proud of how the Italian indie scene is growing and enriching itself with such valid elements",
+        "tags":["Interview"]
+    },
+    "i-1manshow":{
+        "show":true,
+        "name":"i-1manshow",
+        "title":"One Man Show",
+        "link":"/",
+        "date":"14 October 2019, Raffaele Cinquegrana for Console Generation",
+        "description":"",
+        "tags":["Interview"]
+    },
+    "e-mgw19":{
+        "show":true,
+        "name":"e-mgw19",
+        "title":"Milan Games Week 2019",
+        "link":"/",
+        "date":"27 September 2019",
+        "description":"Showcased RELOW at Milan Games Week 2019",
+        "tags":["Exposition"]
+    },
+    "i-twico":{
+        "show":true,
+        "name":"i-twico",
+        "title":"The word to the new millennium",
+        "link":"https://blog.twico.it/la-parola-al-nuovo-millennio-3ca6a6671257",
+        "date":"04 July 2018, Elisabetta Solito for Twico",
+        "description":"Interview with Tommaso, guest student at Twico for a school-work alternation project",
+        "tags":["Interview"]
     }
 }
