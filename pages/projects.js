@@ -33,8 +33,8 @@ function Projects( ) {
 
     return (
         <ProjectLayout>
-            <section className="w-full text-lg mt-16">
-            
+            <section className="w-full text-lg mt-16 text-center">
+            <p className="text-base mb-8"><span className="inline-btn">Disclamer:</span><br></br> the list below has no intention to be an ego showcase, but rather, it&apos;s a list I find nice and useful for myself, tracking my passion and dedication to Computer Science and Software Engineering</p>
             <section className="mb-8 text-center space-x-4 space-y-4">
                 {filter_items.map((item) => (
                     <button className="btn2" type="button" onClick={(e) => setFilter(item)} value={item} key={item}>{getNumbers(item)}</button>

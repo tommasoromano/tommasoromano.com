@@ -10,7 +10,7 @@ const Article = ({name}) => {
 
     return (
         <div className="w-full">
-        <section className="w-full px-8">
+        <section className="w-full px-8 text-left">
             
             <h2 
                 className="text-2xl font-bold pace-x-3"
