@@ -6,18 +6,16 @@ import Link from 'next/link'
 
 function Projects( ) {
 
-    // const content_filter = ["war-of-wheels","smart-bear","pystockbot","swagvote","untitled-nature-game","easy-insta-growth","relow","polywar"]
-    // const content_filtered = Object.entries(content).filter((item) => content_filter.includes(item[0]));
     const content_filtered = Object.entries(content).filter((item) => item[1].show === true);
     const [items, setItems] = useState([]);
-    const [filter, setFilter] = useState("");
+    const [filter, setFilter] = useState("All");
 
     useEffect(() => {
         setItems(content_filtered)
     }, []);
 
     const data = Object.values(items);
-    const filter_items = ["All","Software","Frontend","Data","Game"];
+    const filter_items = ["All","Software","Web","Data","Game"];
 
     function search(items) {
         return items.filter(
@@ -34,10 +32,11 @@ function Projects( ) {
     return (
         <ProjectLayout>
             <section className="w-full text-lg mt-16 text-center">
+            <h2 className="h2 mb-10">Work</h2>
             <p className="text-base mb-8"><span className="inline-btn">Disclamer:</span><br></br> the list below has no intention to be an ego showcase, but rather, it&apos;s a list I find nice and useful for myself, tracking my passion and dedication for Computer Science and Software Engineering</p>
             <section className="mb-8 text-center space-x-4 space-y-4">
                 {filter_items.map((item) => (
-                    <button className="btn2" type="button" onClick={(e) => setFilter(item)} value={item} key={item}>{getNumbers(item)}</button>
+                    <button className={(item === filter ? "btn" : "btn2")} type="button" onClick={(e) => setFilter(item)} value={item} key={item}>{getNumbers(item)}</button>
                 ))}
             </section>
                 

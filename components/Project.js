@@ -36,7 +36,7 @@ const Project = ({name,featurated}) => {
 
     return (
         <div className="w-full">
-            <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full h-full rounded-lg drop-shadow-lg relative">
+            <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full h-full rounded-lg drop-shadow-lg relative text-left">
                 {renderFeatured()}
                 <img
                     src={prj.img}

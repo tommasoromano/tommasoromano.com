@@ -23,10 +23,6 @@ export default function Home() {
 
           <h2 className="h2">Hi, I&apos;m Tommaso</h2>
           <p className="h2p">
-            {/*founder and developer <Pa href={"/"} text={"@RelowDigital"}/>,
-            Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/>,
-            currently working on <Pa href={"https://dreambitsstudio.com"} text={"Gladiator Wheels"}/>
-            and <Pa href={"https://smart-bear.eu"} text={"Smart-Bear"}/>*/}
             <ul className="list-none">
               <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@DreamBitsStudio"}/></li>
               <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li>
@@ -35,12 +31,9 @@ export default function Home() {
           </p>
           
           <div className="flex items-center justify-center space-x-5">
-            <a className="btn2" href="#work">
-              Discover
-            </a>
-            <a className="btn" href="/tommaso_romano_cv.pdf">
-              Resume
-            </a>
+            <a className="btn2" href="#work">Discover</a>
+            {/* <a className="btn" href="/tommaso_romano_cv.pdf">Resume</a> */}
+            <a className="btn" href="#work">Resume</a>
           </div>
           <Socials/>
 
@@ -113,7 +106,7 @@ export default function Home() {
             />
         </div>
 
-        <Link href="/projects"><a className="btn2">See all &#8594;</a></Link>
+        <Link href="/work"><a className="btn2">See all &#8594;</a></Link>
 
         
       </div>
@@ -147,7 +140,7 @@ export default function Home() {
             name="i-mgwx"
           />
 
-        <Link href="/articles"><a className="btn2">See all &#8594;</a></Link>
+        <Link href="/recognitions"><a className="btn2">See all &#8594;</a></Link>
 
       </div>
 

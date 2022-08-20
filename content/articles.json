@@ -6,7 +6,9 @@
         "link":"https://startupitalia.eu/97380-20220717-163-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
         "date":"17 July 2022",
         "description":"A big list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
-        "tags":["Award"]
+        "tags":["Award"],
+        "expande":[""],
+        "expandeText":""
     },   
     "frstplybl22":{
         "show":true,
@@ -15,16 +17,196 @@
         "link":"https://firstplayable.it",
         "date":"6-8 July 2022",
         "description":"Firts Playable is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds like Nintendo Europe, Epic Games, Acer and so on",
-        "tags":["Event"]
+        "tags":["Event"],
+        "expande":["fp22-dlg","fp22-gmo","fp22-tfi","fp22-myu","fp22-ue5","fp22-ia"],
+        "expandeText":"See all attended talks"
+    },   
+    "fp22-dlg":{
+        "show":false,
+        "name":"fp22-dlg",
+        "title":"Developing local gaming ecosystems in Europe",
+        "link":"/",
+        "date":"6 July 2022 ( David Rabineau, Marija Ilic, Konrad Adamczewski, Thalita Malago )",
+        "description":"How is the game development scene in different European countries? What European associations are doing or plan to do to support the growth of their local ecosystems? What are the key learnings that can be shared from their experience in the field?",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },   
+    "fp22-gmo":{
+        "show":false,
+        "name":"fp22-gmo",
+        "title":"Getting Meta on Metaverse",
+        "link":"/",
+        "date":"6 July 2022 ( Nicola Rosa, Chris Gunby )",
+        "description":"\"The Multiverse is a concept about which we know frighteningly little.\" Just like Doctor Strange getting to grips with the ins and outs of the Multiverse, we’re joined by global Metaverse specialists Nicola Rosa and Chris Gunby to break down the exciting possibilities of development for and within the Metaverse",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },   
+    "fp22-tfi":{
+        "show":false,
+        "name":"fp22-tfi",
+        "title":"The Fun in Funding",
+        "link":"/",
+        "date":"6 July 2022 ( Per-Arne Lundberg, Tim Glaus, Steph Darrah, Brjann Sigurgeirsson, Aaron Cooper )",
+        "description":"Looking to find a partner or fund an upcoming videogame project? Hear from some of the thought leaders in the funding and publishing space on the best way to acquire support funding for your next gaming project and gain an understanding of what entering this type of relationship entails",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },   
+    "fp22-myu":{
+        "show":false,
+        "name":"fp22-myu",
+        "title":"Me, You, Us, Them: Accessibility in games and encouraging Inclusivity and Diversity",
+        "link":"/",
+        "date":"6 July 2022 ( Hollie Emery, Alexis Trust, Alexander Milton, Micaela Romanini, Aaron Cooper )",
+        "description":"Inclusivity and diversity is the way forward. How can this be honed in the modern age of game creation, what avenues does it open up and how does this inclusivity bleed through into the game experiences and open up a more complete vision and collaborative work spaces?",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },   
+    "fp22-ue5":{
+        "show":false,
+        "name":"fp22-ue5",
+        "title":"Unreal Engine 5 and beyond",
+        "link":"/",
+        "date":"6 July 2022 ( Sjoerd De Jong )",
+        "description":"Epic’s director of the developer community Sjoerd De Jong will walk through some of the latest developments around the recently released Unreal Engine 5, as well as other developer focused tools and tech that Epic is working on to help empower creation such as Metahuman and RealityScan. ",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },   
+    "fp22-ia":{
+        "show":false,
+        "name":"fp22-ia",
+        "title":"Italians Abroad",
+        "link":"/",
+        "date":"6 July 2022 ( Ilja Rotelli, Maurizio De Pascale, Stefano Petrullo, Roberto Schiavulli, Davide Morrone )",
+        "description":"Italians Abroad is a network initiative promoted by IIDEA within the aim to map and scope all the Italian’s professionals working in the gaming industry worldwide. In this appointment, we’ll be talking with a few Italians working in the industry overseas!",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },   
+    "fp22-ri":{
+        "show":false,
+        "name":"fp22-ri",
+        "title":"Rami Ismail",
+        "link":"/",
+        "date":"6 July 2022 ( Rami Ismail )",
+        "description":"Rami Ismail is a Dutch-Egyptian industry ambassador & independent games developer with over 20 titles across PC, console, web, and mobile. His development of tools like the industry-standard dopresskit.com, his prolific & popular public speaking, and highly-regarded consultancy and insights have helped shape industry opportunities for game communities & independent game developers of any kind, in any situation, and anywhere.",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
     },    
     "svpty2022-ntw":{
         "show":true,
         "name":"svpty2022-ntw",
         "title":"Realtime Networking for IndieDevs",
         "link":"/",
-        "date":"14 May 2022",
+        "date":"14 May 2022 @ Svilupparty 2022, Bologna",
         "description":"Gameplay Networking: Best practices and Design Patterns.",
-        "tags":["Talk"]
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-acc":{
+        "show":true,
+        "name":"bgf-acc",
+        "title":"Bologna Game Farm Accelerator",
+        "link":"https://bolognagamefarm.com",
+        "date":"December 2021 - July 2022",
+        "description":"Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by Regione Emilia Romagna, Comune di Bologna, in collaboration with IIDEA",
+        "tags":["Accelerator"],
+        "expande":["bgf-gs","bgf-rw","bgf-fo","bgf-st","bgf-bcn","bgf-ps","bgf-ad","bgf-tt"],
+        "expandeText":"See all coaching talks"
+    },
+    "bgf-gs":{
+        "show":false,
+        "name":"bgf-gs",
+        "title":"Studio Evil",
+        "link":"/",
+        "date":"20 January 2022 ( Luca Marchetti )",
+        "description":"The \"vision\" of the project, in terms of the extent of understanding, requires a detailed forecast of what the game will be: its genre, the number of hours of play, the graphics quality, the number of supported players, the number of levels, the quality of the AI, and other aspects",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-rw":{
+        "show":false,
+        "name":"bgf-rw",
+        "title":"Raceward",
+        "link":"/",
+        "date":"1 February 2022 ( Marco Ponte, Fabio Respighi, Claudio Giacopazzi )",
+        "description":"Refinement of the game scope and identity (including commercial) of games, development of game design, with an extremely practical approach.",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-fo":{
+        "show":false,
+        "name":"bgf-fo",
+        "title":"Fractured Online by Dynamight",
+        "link":"/",
+        "date":"8 February 2022 ( Jacopo Gallelli )",
+        "description":"Production aspect linked to server management and the server engine chosen to manage the openworld",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-st":{
+        "show":false,
+        "name":"bgf-st",
+        "title":"Storm in a teacup",
+        "link":"/",
+        "date":"15 February 2022 ( Roberto Semprebene )",
+        "description":"Studio management",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-bcn":{
+        "show":false,
+        "name":"bgf-bcn",
+        "title":"Blockchain and NFT",
+        "link":"/",
+        "date":"16 February 2022 ( Alberto Calleo )",
+        "description":"Blockchain, NFT by University of Bologna",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-ps":{
+        "show":false,
+        "name":"bgf-ps",
+        "title":"Piquaresque Studio",
+        "link":"/",
+        "date":"22 February 2022 ( Marco Mantoan )",
+        "description":"Game designer: mechanical construction, parameters and relative balance (parametric apparatus and game economies)",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-ad":{
+        "show":false,
+        "name":"bgf-ps",
+        "title":"Art direction",
+        "link":"/",
+        "date":"1 March 2022 ( Cristian Scampini )",
+        "description":"Art direction",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "bgf-tt":{
+        "show":false,
+        "name":"bgf-tt",
+        "title":"Trinity Team",
+        "link":"/",
+        "date":"16 March 2022 ( Gerardo Verna )",
+        "description":"mentorship on various topics, from publishing to console porting, to the analysis of the structure of Unity projects",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
     },
     "bgf-win":{
         "show":true,
@@ -33,7 +215,9 @@
         "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_startups-videogames-activity-6878039527848472576-etCp",
         "date":"15 December 2021",
         "description":"Winners with GladiatorWheels of the funding project Bologna Game Farm: accelerator dedicated to innovative startups for the development of videogames",
-        "tags":["Award"]
+        "tags":["Award"],
+        "expande":[""],
+        "expandeText":""
     },
     "a-80lvl-2":{
         "show":true,
@@ -42,7 +226,9 @@
         "link":"https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
         "date":"25 October 2021, Arti Burton for 80LVL",
         "description":"Tommaso Romanò shared a look at an updated version of his procedural gun",
-        "tags":["Article"]
+        "tags":["Article"],
+        "expande":[""],
+        "expandeText":""
     },
     "top100-2021":{
         "show":true,
@@ -51,7 +237,9 @@
         "link":"https://startupitalia.eu/90664-20210826-142-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
         "date":"1 September 2021",
         "description":"A big list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
-        "tags":["Award"]
+        "tags":["Award"],
+        "expande":[""],
+        "expandeText":""
     },
     "a-80lvl-1":{
         "show":true,
@@ -60,16 +248,20 @@
         "link":"https://80.lv/articles/a-game-developer-makes-a-gun-that-creates-flower-bridges/",
         "date":"14 July 2021, Kseniya Serebrennikova for 80LVL",
         "description":"Italian Developer Tommaso Romano created another beautiful vegetation generator in Unity",
-        "tags":["Article"]
+        "tags":["Article"],
+        "expande":[""],
+        "expandeText":""
     },
     "t-social":{
         "show":true,
         "name":"t-social",
         "title":"Social Media for Game Developers",
         "link":"/",
-        "date":"10 July 2021",
+        "date":"10 July 2021 @ Svilupparty 2021, Bologna",
         "description":"Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure",
-        "tags":["Talk"]
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
     },
     "e-svpty21":{
         "show":true,
@@ -78,7 +270,9 @@
         "link":"/",
         "date":"10 July 2021",
         "description":"Showcased an Untitled Nature Game at Bologna, Italy",
-        "tags":["Exposition"]
+        "tags":["Exposition"],
+        "expande":[""],
+        "expandeText":""
     },
     "a-80lvl-0":{
         "show":true,
@@ -87,7 +281,9 @@
         "link":"https://80.lv/articles/a-reddit-user-has-created-a-procedural-ivy-generator/",
         "date":"23 June 2021, Theodore Nikitinfor for 80LVL",
         "description":"A Reddit user Tommaso Romanò has created a procedural ivy generator in Unity",
-        "tags":["Article"]
+        "tags":["Article"],
+        "expande":[""],
+        "expandeText":""
     },
     "i-mgwx":{
         "show":true,
@@ -96,7 +292,9 @@
         "link":"/",
         "date":"29 November 2020",
         "description":"Emilio Cozzi, with Fortuna Imperatore and Johnny Lonack. Pros and cons of working as a Solo-Game-Developer",
-        "tags":["Interview"]
+        "tags":["Interview"],
+        "expande":[""],
+        "expandeText":""
     },
     "e-mgwx":{
         "show":true,
@@ -105,16 +303,20 @@
         "link":"/",
         "date":"27 November 2020",
         "description":"Showcased RELOW at Milan Games Week X on Twitch (online due to the pandemic)",
-        "tags":["Exposition"]
+        "tags":["Exposition"],
+        "expande":[""],
+        "expandeText":""
     },
     "t-svpty20":{
         "show":true,
         "name":"t-svpty20",
         "title":"The Making of RELOW",
         "link":"/",
-        "date":"6 September 2020",
+        "date":"6 September 2020 @ Svilupparty 2020, Bologna",
         "description":"Post-mortem talk of the multiplayer game RELOW",
-        "tags":["Talk"]
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
     },
     "e-svpty20":{
         "show":true,
@@ -123,7 +325,9 @@
         "link":"/",
         "date":"6 September 2020",
         "description":"Showcased RELOW at Bologna, Italy",
-        "tags":["Exposition"]
+        "tags":["Exposition"],
+        "expande":[""],
+        "expandeText":""
     },   
     "frstplybl20":{
         "show":true,
@@ -132,16 +336,20 @@
         "link":"https://firstplayable.it",
         "date":"15-16 July 2020",
         "description":"Firts Playable is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds like Nintendo Europe, Epic Games, Acer and so on",
-        "tags":["Event"]
+        "tags":["Event"],
+        "expande":[""],
+        "expandeText":""
     },
     "vv-game":{
         "show":true,
         "name":"vv-game",
         "title":"An introduction to Game Development",
         "link":"/",
-        "date":"13 April 2020",
+        "date":"13 April 2020 @ LSS Vittorio Veneto, Milano",
         "description":"A brief lecture to Game Development: technologies, professionals and work positions",
-        "tags":["Talk"]
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
     },
     "i-ludenz":{
         "show":true,
@@ -150,7 +358,9 @@
         "link":"https://ludenz.podbean.com/e/editori-parassiti-per-giovani-sviluppatori-la-storia-di-tommaso-romano/",
         "date":"27 October 2019, Luigi Marrone for Ludenz",
         "description":"the meeting with the young developer Tommaso Romanò, a nineteen year old game designer selected for his game Relow",
-        "tags":["Interview"]
+        "tags":["Interview"],
+        "expande":[""],
+        "expandeText":""
     },
     "i-4gamehz":{
         "show":true,
@@ -159,7 +369,9 @@
         "link":"https://ludenz.podbean.com/e/editori-parassiti-per-giovani-sviluppatori-la-storia-di-tommaso-romano/",
         "date":"14 October 2019, Roberto di Marino for 4GameHZ",
         "description":"We had the enormous pleasure and stellar honor of being able to meet one of these lonely talents, one of those characters who can only make us proud of how the Italian indie scene is growing and enriching itself with such valid elements",
-        "tags":["Interview"]
+        "tags":["Interview"],
+        "expande":[""],
+        "expandeText":""
     },
     "i-1manshow":{
         "show":true,
@@ -168,7 +380,9 @@
         "link":"/",
         "date":"14 October 2019, Raffaele Cinquegrana for Console Generation",
         "description":"",
-        "tags":["Interview"]
+        "tags":["Interview"],
+        "expande":[""],
+        "expandeText":""
     },
     "e-mgw19":{
         "show":true,
@@ -177,7 +391,9 @@
         "link":"/",
         "date":"27 September 2019",
         "description":"Showcased RELOW at Milan Games Week 2019",
-        "tags":["Exposition"]
+        "tags":["Exposition"],
+        "expande":[""],
+        "expandeText":""
     },
     "i-twico":{
         "show":true,
@@ -186,6 +402,8 @@
         "link":"https://blog.twico.it/la-parola-al-nuovo-millennio-3ca6a6671257",
         "date":"04 July 2018, Elisabetta Solito for Twico",
         "description":"Interview with Tommaso, guest student at Twico for a school-work alternation project",
-        "tags":["Interview"]
+        "tags":["Interview"],
+        "expande":[""],
+        "expandeText":""
     }
 }
