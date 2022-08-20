@@ -1,7 +1,7 @@
 import{ExternalLinkIcon} from "@heroicons/react/outline";
 import Pa from "../components/Pa";
 import content from "../content/articles.json"
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Article = ({name}) => {
     const artcl = content[name];
@@ -10,6 +10,7 @@ const Article = ({name}) => {
     );
 
     const hasExpande = !(artcl.expande[0] === "");
+    const scrollToElementRef = useRef(null)
     const [isCollapse, setIsCollapse] = useState(true);
 
     useEffect(() => {
@@ -21,16 +22,18 @@ const Article = ({name}) => {
             return null;
         } else {
             if (isCollapse) {
+                if (scrollToElementRef.current) {
+                    // scrollToElementRef.current.scrollIntoView({behavior: "smooth"});
+                    scrollToElementRef.current.scrollIntoView();
+                }
                 return (
                     <button className="inline-btn no-underline" type="button" onClick={(e) => setIsCollapse(false)} value={false}>{artcl.expandeText} &#8595;</button>
                 );
             } else {
                 return (
-                    <section>
-                       {artcl.expande.map((item) => (
-                            <Article
-                            name={item} key={item}
-                            />
+                    <section className="">
+                        {artcl.expande.map((item) => (
+                            <Article name={item} key={item}/>
                     ))}
                         <button className="inline-btn no-underline" type="button" onClick={(e) => setIsCollapse(true)} value={true}>Close &#8593;</button>
                     </section>
@@ -40,9 +43,9 @@ const Article = ({name}) => {
     }
 
     return (
-        <div className="w-full">
+        <div className="w-full" ref={scrollToElementRef}>
             
-        <section className={"w-full px-8 text-left"+(hasExpande ? " border-4 border-sky-500/0 border-l-sky-500" : "")}>
+        <section className={"w-full text-left px-8"+(hasExpande ? " border-4 border-sky-500/0 border-l-sky-500" : "")}>
             
             <h2 
                 className="text-2xl font-bold pace-x-3"

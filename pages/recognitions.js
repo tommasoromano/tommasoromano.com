@@ -42,9 +42,7 @@ function Projects( ) {
                 
             <div className="article-container">
                 {search(data).map((item) => (
-                    <Article
-                    name={item[1].name} key={item[1].name}
-                    />
+                    <Article name={item[1].name} key={item[1].name}/>
                 ))}
             </div>
 

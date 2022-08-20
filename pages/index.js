@@ -79,31 +79,12 @@ export default function Home() {
         */}
 
         <div className="proj-container-2">
-          
-            <Project
-              name="pystockbot"
-              featurated=""
-            />
-            <Project
-              name="untitled-nature-game"
-              featurated=""
-            />
-            <Project
-              name="swagvote"
-              featurated=""
-            />
-            <Project
-              name="easy-insta-growth"
-              featurated=""
-            />
-            <Project
-              name="relow"
-              featurated=""
-            />
-            <Project
-              name="polywar"
-              featurated=""
-            />
+            <Project name="pystockbot" featurated=""/>
+            <Project name="untitled-nature-game" featurated=""/>
+            <Project name="swagvote" featurated=""/>
+            <Project name="easy-insta-growth" featurated=""/>
+            <Project name="relow" featurated=""/>
+            <Project name="polywar" featurated=""/>
         </div>
 
         <Link href="/work"><a className="btn2">See all &#8594;</a></Link>
@@ -117,28 +98,13 @@ export default function Home() {
           A list of news, articles, interviews, awards, expositions, events, talks and achievements. 
           To show only relevant recognitions, many are hidden
         </p>
-          <Project
-            name="bologna-game-farm"
-            featurated="FEATURATED"
-          />
-          <Article
-            name="top100-2022"
-          />
-          <Article
-            name="frstplybl22"
-          />
-          <Article
-            name="bgf-win"
-          />
-          <Article
-            name="a-80lvl-2"
-          />
-          <Article
-            name="t-social"
-          />
-          <Article
-            name="i-mgwx"
-          />
+          <Project name="bologna-game-farm" featurated="FEATURATED"/>
+          <Article name="top100-2022"/>
+          <Article name="frstplybl22"/>
+          <Article name="bgf-win"/>
+          <Article name="a-80lvl-2"/>
+          <Article name="t-social"/>
+          <Article name="i-mgwx"/>
 
         <Link href="/recognitions"><a className="btn2">See all &#8594;</a></Link>
 
