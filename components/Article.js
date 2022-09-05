@@ -17,6 +17,14 @@ const Article = ({name}) => {
         setIsCollapse(isCollapse);
     }, []);
 
+    function renderExternalLink() {
+        if (artcl.link === "" || artcl.link === "/") {
+            return null;
+        } else {
+            return (<ExternalLinkIcon className="w-6 h-6 hover:text-gray-800 hover:dark:text-gray-200"/>);
+        }
+    }
+
     function renderExpande() {
         if (!hasExpande) {
             return null;
@@ -31,7 +39,7 @@ const Article = ({name}) => {
                 );
             } else {
                 return (
-                    <section className="">
+                    <section className="space-y-8">
                         {artcl.expande.map((item) => (
                             <Article name={item} key={item}/>
                     ))}
@@ -45,14 +53,14 @@ const Article = ({name}) => {
     return (
         <div className="w-full" ref={scrollToElementRef}>
             
-        <section className={"w-full text-left px-8"+(hasExpande ? " border-4 border-sky-500/0 border-l-sky-500" : "")}>
+        <section className={"w-full text-left px-4 md:px-8"+(hasExpande ? " border-4 border-sky-500/0 border-l-sky-500" : "")}>
             
             <h2 
                 className="text-2xl font-bold pace-x-3"
             >
                 <span className="float-left p-1">
                     <a href={artcl.link} target="_blank" rel="noreferrer noopener">
-                        <ExternalLinkIcon className="w-6 h-6 hover:text-gray-800 hover:dark:text-gray-200"/>
+                        {renderExternalLink()}
                     </a>
                 </span>
                 <Pa href={artcl.link} text={artcl.title}/>

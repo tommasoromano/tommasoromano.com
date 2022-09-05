@@ -5,8 +5,15 @@ import Pa from "../components/Pa";
 import{ArrowDownIcon} from "@heroicons/react/solid";
 import Socials from "../components/Socials"
 import Link from 'next/link'
+import contentWork from '../content/projects.json'
+import contentArticles from '../content/articles.json'
+import { selectedWorks } from "../components/FilterWork";
+import { selectedArticles } from "../components/FilterArticles";
 
 export default function Home() {
+
+  const articles_filtered = Object.entries(contentArticles).filter((item) => item[1].show === true);
+
   return (
     <Layout>
 
@@ -24,9 +31,10 @@ export default function Home() {
           <h2 className="h2">Hi, I&apos;m Tommaso</h2>
           <p className="h2p">
             <ul className="list-none">
-              <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@DreamBitsStudio"}/></li>
-              <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li>
-              <li>Computer Science student <Pa href={"https://unimi.it"} text={"@UNIMI"}/></li>
+              <li>Frontend Engineer <Pa href={"https://famalabs.com"} text={"@ Fama Labs"}/></li>
+              <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@ Dreambits Studio"}/></li>
+              {/* <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li> */}
+              <li>Computer Science student <Pa href={"https://unimi.it"} text={"@ UNIMI"}/></li>
             </ul>
           </p>
           
@@ -62,15 +70,9 @@ export default function Home() {
          * 
         */}
 
-          <Project
-            name="war-of-wheels"
-            featurated="FEATURED"
-          />
-
-          <Project
-            name="smart-bear"
-            featurated="FEATURED"
-          />
+          <Project name="famalabs" featurated="FEATURED"/>
+          {/* <Project name="war-of-wheels" featurated="FEATURED"/>
+          <Project name="smart-bear" featurated="FEATURED"/> */}
 
         {/** 
          * 
@@ -79,12 +81,14 @@ export default function Home() {
         */}
 
         <div className="proj-container-2">
+            <Project name="war-of-wheels" featurated=""/>
+            <Project name="smart-bear" featurated=""/>
             <Project name="pystockbot" featurated=""/>
             <Project name="untitled-nature-game" featurated=""/>
             <Project name="swagvote" featurated=""/>
             <Project name="easy-insta-growth" featurated=""/>
-            <Project name="relow" featurated=""/>
-            <Project name="polywar" featurated=""/>
+            {/* <Project name="relow" featurated=""/>
+            <Project name="polywar" featurated=""/> */}
         </div>
 
         <Link href="/work"><a className="btn2">See all &#8594;</a></Link>
@@ -98,13 +102,16 @@ export default function Home() {
           A list of news, articles, interviews, awards, expositions, events, talks and achievements. 
           To show only relevant recognitions, many are hidden
         </p>
-          <Project name="bologna-game-farm" featurated="FEATURATED"/>
+          {articles_filtered.filter((item) => selectedArticles.includes(item[1].name)).map((item) => (
+            <Article name={item[1].name} key={item[1].name}/>
+          ))}
+          {/* <Project name="bologna-game-farm" featurated="FEATURATED"/>
           <Article name="top100-2022"/>
           <Article name="frstplybl22"/>
           <Article name="bgf-win"/>
           <Article name="a-80lvl-2"/>
           <Article name="t-social"/>
-          <Article name="i-mgwx"/>
+          <Article name="i-mgwx"/> */}
 
         <Link href="/recognitions"><a className="btn2">See all &#8594;</a></Link>
 

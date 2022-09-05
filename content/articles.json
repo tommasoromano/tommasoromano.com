@@ -1,4 +1,15 @@
 {
+    "gmscm-2022":{
+        "show":true,
+        "name":"gmscm-2022",
+        "title":"Gamescom 2022",
+        "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_gamescom-business-pitching-activity-6970629214131605505-0xqz",
+        "date":"23-25 August 2022",
+        "description":"Gamescom",
+        "tags":["Event"],
+        "expande":[""],
+        "expandeText":""
+    },  
     "top100-2022":{
         "show":true,
         "name":"top100-2022",
@@ -105,7 +116,7 @@
         "link":"/",
         "date":"14 May 2022 @ Svilupparty 2022, Bologna",
         "description":"Gameplay Networking: Best practices and Design Patterns.",
-        "tags":["Talk"],
+        "tags":["Speaker"],
         "expande":[""],
         "expandeText":""
     },
@@ -259,7 +270,7 @@
         "link":"/",
         "date":"10 July 2021 @ Svilupparty 2021, Bologna",
         "description":"Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure",
-        "tags":["Talk"],
+        "tags":["Speaker"],
         "expande":[""],
         "expandeText":""
     },
@@ -307,6 +318,17 @@
         "expande":[""],
         "expandeText":""
     },
+    "t-iv-vi":{
+        "show":false,
+        "name":"t-iv-vi",
+        "title":"Videogames as business",
+        "link":"/",
+        "date":"16 October 2020, Ivan Venturi",
+        "description":"How to produce videogames as a business",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
     "t-svpty20":{
         "show":true,
         "name":"t-svpty20",
@@ -314,7 +336,7 @@
         "link":"/",
         "date":"6 September 2020 @ Svilupparty 2020, Bologna",
         "description":"Post-mortem talk of the multiplayer game RELOW",
-        "tags":["Talk"],
+        "tags":["Speaker"],
         "expande":[""],
         "expandeText":""
     },
@@ -347,7 +369,7 @@
         "link":"/",
         "date":"13 April 2020 @ LSS Vittorio Veneto, Milano",
         "description":"A brief lecture to Game Development: technologies, professionals and work positions",
-        "tags":["Talk"],
+        "tags":["Speaker"],
         "expande":[""],
         "expandeText":""
     },
@@ -392,6 +414,28 @@
         "date":"27 September 2019",
         "description":"Showcased RELOW at Milan Games Week 2019",
         "tags":["Exposition"],
+        "expande":["e-mgw19-uem","e-mgw19-mm"],
+        "expandeText":"See all attended talks"
+    },
+    "e-mgw19-uem":{
+        "show":false,
+        "name":"e-mgw19-uem",
+        "title":"Unreal Engine Mixer",
+        "link":"/",
+        "date":"27 September 2019, Sjoerd De Jong and Mario Palmero Pavon",
+        "description":"Ray Tracing, Physics (CHAOS), and Project Spotlight",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "e-mgw19-mm":{
+        "show":false,
+        "name":"e-mgw19-mm",
+        "title":"Media Molecule Close-Talk",
+        "link":"/",
+        "date":"28 September 2019, Abigail Heppe, Tom Dent",
+        "description":"Communication and community management",
+        "tags":["Talk"],
         "expande":[""],
         "expandeText":""
     },
@@ -403,6 +447,39 @@
         "date":"04 July 2018, Elisabetta Solito for Twico",
         "description":"Interview with Tommaso, guest student at Twico for a school-work alternation project",
         "tags":["Interview"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "t-pp-copernico":{
+        "show":true,
+        "name":"t-pp-copernico",
+        "title":"Pitch and Publishers",
+        "link":"/",
+        "date":"March 2018, Lorenzo Grimaldi at Copernico Milano",
+        "description":"An overview about game industry and publishing",
+        "tags":["Talk"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "ac-gj":{
+        "show":true,
+        "name":"ac-gj",
+        "title":"Green entrepreneurship",
+        "link":"https://www.jaworldwide.org/",
+        "date":"February 2018 - May 2018, Junior Achievement Italia & InVento Innovation Lab",
+        "description":"Green Jobs is a program of entrepreneurial education in the environmental field, which integrates the methodology of the company JA with training meetings aimed at green entrepreneurship by InVento Innovation Lab",
+        "tags":["Accelerator"],
+        "expande":[""],
+        "expandeText":""
+    },
+    "js-conti":{
+        "show":true,
+        "name":"js-conti",
+        "title":"JavaScript for world creators",
+        "link":"/",
+        "date":"October 2016 - December 2016, Prof. Francesco Bruschi and Prof. Vincenzo Rana",
+        "description":"Python, HTML, CSS and JavaScript to create websites and videogames",
+        "tags":["Talk"],
         "expande":[""],
         "expandeText":""
     }
