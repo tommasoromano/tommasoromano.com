@@ -8,11 +8,12 @@ import Link from 'next/link'
 import contentWork from '../content/projects.json'
 import contentArticles from '../content/articles.json'
 import { selectedWorks } from "../components/FilterWork";
-import { selectedArticles } from "../components/FilterArticles";
+import { selectedArticles, articlesText } from "../components/FilterArticles";
 
 export default function Home() {
 
   const articles_filtered = Object.entries(contentArticles).filter((item) => item[1].show === true);
+  const works_filtered = Object.entries(contentWork).filter((item) => item[1].show === true);
 
   return (
     <Layout>
@@ -81,14 +82,15 @@ export default function Home() {
         */}
 
         <div className="proj-container-2">
-            <Project name="war-of-wheels" featurated=""/>
+          {works_filtered.filter((item,i) => selectedWorks.includes(i==0 ? "!£$%&/()=" : item[1].name)).map((item) => (
+            <Project name={item[1].name} featurated="" key={item[1].name}/>
+          ))}
+            {/* <Project name="war-of-wheels" featurated=""/>
             <Project name="smart-bear" featurated=""/>
             <Project name="pystockbot" featurated=""/>
             <Project name="untitled-nature-game" featurated=""/>
             <Project name="swagvote" featurated=""/>
-            <Project name="easy-insta-growth" featurated=""/>
-            {/* <Project name="relow" featurated=""/>
-            <Project name="polywar" featurated=""/> */}
+            <Project name="easy-insta-growth" featurated=""/> */}
         </div>
 
         <Link href="/work"><a className="btn2">See all &#8594;</a></Link>
@@ -99,19 +101,11 @@ export default function Home() {
       <div className="article-container">
         <h2 className="h2">Recognitions</h2>
         <p className="h2p">
-          A list of news, articles, interviews, awards, expositions, events, talks and achievements. 
-          To show only relevant recognitions, many are hidden
+          a selected {articlesText}.
         </p>
           {articles_filtered.filter((item) => selectedArticles.includes(item[1].name)).map((item) => (
             <Article name={item[1].name} key={item[1].name}/>
           ))}
-          {/* <Project name="bologna-game-farm" featurated="FEATURATED"/>
-          <Article name="top100-2022"/>
-          <Article name="frstplybl22"/>
-          <Article name="bgf-win"/>
-          <Article name="a-80lvl-2"/>
-          <Article name="t-social"/>
-          <Article name="i-mgwx"/> */}
 
         <Link href="/recognitions"><a className="btn2">See all &#8594;</a></Link>
 

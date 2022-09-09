@@ -129,7 +129,7 @@
         "description":"Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by Regione Emilia Romagna, Comune di Bologna, in collaboration with IIDEA",
         "tags":["Accelerator"],
         "expande":["bgf-gs","bgf-rw","bgf-fo","bgf-st","bgf-bcn","bgf-ps","bgf-ad","bgf-tt"],
-        "expandeText":"See all coaching talks"
+        "expandeText":"See all coaching lessons"
     },
     "bgf-gs":{
         "show":false,

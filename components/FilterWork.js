@@ -5,11 +5,13 @@ import Link from 'next/link'
 
 export const selectedWorks = ["famalabs","war-of-wheels","smart-bear","pystockbot","swagvote","untitled-nature-game","easy-insta-growth"]
 
+export const worksText = "list of projects I&apos;ve worked on as an employer, collaborator, self-employed, student or personal"
+
 function FilterWork( ) {
 
     const content_filtered = Object.entries(content).filter((item) => item[1].show === true);
     const [items, setItems] = useState([]);
-    const [filter, setFilter] = useState("All");
+    const [filter, setFilter] = useState("Selected");
 
     useEffect(() => {
         setItems(content_filtered)
