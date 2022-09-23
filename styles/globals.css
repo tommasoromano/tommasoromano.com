@@ -48,6 +48,11 @@
     @apply decoration-sky-500;
     @apply hover:text-gray-800 hover:dark:text-gray-200;
   }
+  .inline-btn2 {
+    @apply underline font-bold  px-5 py-3 text-xl;
+    @apply decoration-sky-500;
+    @apply hover:text-gray-800 hover:dark:text-gray-200;
+  }
   .title-btn {
     @apply hover:underline;
     @apply decoration-sky-500;

@@ -12,7 +12,6 @@ const Article = ({name}) => {
     const hasExpande = !(artcl.expande[0] === "");
     const scrollToElementRef = useRef(null)
     const [isCollapse, setIsCollapse] = useState(true);
-
     useEffect(() => {
         setIsCollapse(isCollapse);
     }, []);

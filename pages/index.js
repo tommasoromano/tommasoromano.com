@@ -29,9 +29,13 @@ export default function Home() {
 
         <div className="flex flex-col space-y-5">
 
-          <h2 className="h2">Hi, I&apos;m Tommaso</h2>
+          {/* <h2 className="h2">Hi, I&apos;m Tommaso</h2> */}
           <p className="h2p">
             <ul className="list-none">
+              <li>Hi, I&apos;m <span className="inline-btn">Tommaso Romano</span>,</li>
+              <li>a {new Date().getFullYear()-2001}-year old software engineer</li>
+              <li> currently working on / studying at:</li>
+              <li>-</li>
               <li>Frontend Engineer <Pa href={"https://famalabs.com"} text={"@ Fama Labs"}/></li>
               <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@ Dreambits Studio"}/></li>
               {/* <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li> */}
@@ -39,11 +43,11 @@ export default function Home() {
             </ul>
           </p>
           
-          <div className="flex items-center justify-center space-x-5">
+          {/* <div className="flex items-center justify-center space-x-5">
             <a className="btn2" href="#work">Discover</a>
-            {/* <a className="btn" href="/tommaso_romano_cv.pdf">Resume</a> */}
+            <a className="btn" href="/tommaso_romano_cv.pdf">Resume</a>
             <a className="btn" href="#work">Resume</a>
-          </div>
+          </div> */}
           <Socials/>
 
         </div>

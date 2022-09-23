@@ -2,14 +2,49 @@ import{ExternalLinkIcon} from "@heroicons/react/outline";
 import Pa from "../components/Pa";
 import content from "../content/projects.json"
 import ReadContent from "./ReadContent";
+import { CalculateDuration } from "./Dates";
 // import ReactHtmlParser from 'react-html-parser'; 
 import Link from 'next/link'
+import { useState, useEffect, useRef } from "react";
 
 const Project = ({name,featurated}) => {
     const prj = content[name];
     const listTags = prj.tags.map((t) => 
         <span key={t} className="bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded-lg">{t}</span> 
     );
+
+    const scrollToElementRef = useRef(null)
+    const [isCollapse, setIsCollapse] = useState(true);
+    useEffect(() => {
+        setIsCollapse(isCollapse);
+    }, []);
+    function renderExpande() {
+        if (isCollapse) {
+            if (scrollToElementRef.current) {
+                // scrollToElementRef.current.scrollIntoView({behavior: "smooth"});
+                scrollToElementRef.current.scrollIntoView();
+            }
+            return (
+                <button className="inline-btn2 no-underline" type="button" onClick={(e) => setIsCollapse(false)} value={false}>See more &#8595;</button>
+            );
+        } else {
+            return (
+                <section className="w-full h-auto flex flex-col flex-wrap space-y-8">
+                    {renderField()}
+                    {/* <div className="collapse mt-4 min-h-[16rem] max-h-[16rem] md:min-h-[16rem] md:max-h-[16rem] overflow-y-auto"> */}
+                    <div className="">
+                        <ReadContent content={prj.description}/>
+                    </div>
+                    {renderTech()}
+                    {/* <br></br>
+                    <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p>
+                    <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p>
+                    <p><a className="inline-btn">SEE MORE &#8594;</a></p> */}
+                    <button className="inline-btn2 no-underline " type="button" onClick={(e) => setIsCollapse(true)} value={true}>Close &#8593;</button>
+                </section>
+            );
+        }
+    }
 
     const renderFeatured = () => {
         if (featurated === "") {
@@ -59,20 +94,10 @@ const Project = ({name,featurated}) => {
                     <p className="space-x-3">
                     {/* <p className="space-x-3 my-4"> */}
                         <span className="font-bold">{prj.role}</span>
-                        <span className="italic">{prj.time}</span>
+                        <span className="italic">{CalculateDuration(prj.time)}</span>
                         <Pa href={prj.atlink} text={prj.at}/>
                     </p>
-                    {renderField()}
-                    {/* <div className="collapse mt-4 min-h-[16rem] max-h-[16rem] md:min-h-[16rem] md:max-h-[16rem] overflow-y-auto"> */}
-                    <div className="">
-                        <ReadContent content={prj.description}/>
-                    </div>
-                    
-                    {renderTech()}
-                    {/* <br></br>
-                    <p><Link href={prj.seemore}><Pa text="SEE MORE &#8594;"/></Link></p>
-                    <p><Link href={prj.seemore}><a className="inline-btn">SEE MORE &#8594;</a></Link></p>
-                    <p><a className="inline-btn">SEE MORE &#8594;</a></p> */}
+                    {renderExpande()}
                 </section>
                 
             </section>
