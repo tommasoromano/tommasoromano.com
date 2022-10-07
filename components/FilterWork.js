@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const selectedWorks = ["famalabs","war-of-wheels","smart-bear","pystockbot","swagvote","untitled-nature-game","easy-insta-growth"]
 
-export const worksText = "list of projects I&apos;ve worked on as an employer, collaborator, self-employed, student or personal"
+export const worksText = "list of projects I\'ve worked on as an employer, collaborator, self-employed, student or personal"
 
 function FilterWork( ) {
 

@@ -7,6 +7,7 @@ import Socials from "../components/Socials"
 import Link from 'next/link'
 import contentWork from '../content/projects.json'
 import contentArticles from '../content/articles.json'
+import contentUniversity from '../content/university.json'
 import { selectedWorks } from "../components/FilterWork";
 import { selectedArticles, articlesText } from "../components/FilterArticles";
 
@@ -105,14 +106,23 @@ export default function Home() {
       <div className="article-container">
         <h2 className="h2">Recognitions</h2>
         <p className="h2p">
-          a selected {articlesText}.
+          A selected {articlesText}.
         </p>
           {articles_filtered.filter((item) => selectedArticles.includes(item[1].name)).map((item) => (
             <Article name={item[1].name} key={item[1].name}/>
           ))}
 
         <Link href="/recognitions"><a className="btn2">See all &#8594;</a></Link>
+      </div>
 
+      <div className="article-container">
+        <h2 className="h2">Education</h2>
+        <p className="h2p">
+          .
+        </p>
+          <Article name={"unimi5"}/>
+          <Article name={"unimi3"}/>
+          <Article name={"lssvv"}/>
       </div>
 
       <div className="flex flex-col justify-center items-center space-y-10 mt-20">
@@ -120,7 +130,6 @@ export default function Home() {
         <p className="h2p">
           A list of not-Computer-Science-related but achievements I&apos;m proud of
         </p>
-
         <p 
             className="text-2xl font-bold text-center"
         >

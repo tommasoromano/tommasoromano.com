@@ -1,10 +1,13 @@
 import{ExternalLinkIcon} from "@heroicons/react/outline";
 import Pa from "../components/Pa";
 import content from "../content/articles.json"
+import contentUniversity from "../content/university.json"
 import { useState, useEffect, useRef } from "react";
 
 const Article = ({name}) => {
-    const artcl = content[name];
+    var artcl = content[name];
+    if (artcl) {}
+    else { artcl = contentUniversity[name] }
     const listTags = artcl.tags.map((t) => 
         <span key={t} className="bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded-lg">{t}</span> 
     );

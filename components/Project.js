@@ -18,6 +18,33 @@ const Project = ({name,featurated}) => {
     useEffect(() => {
         setIsCollapse(isCollapse);
     }, []);
+    const [slider, setSlider] = useState(0);
+    function renderImage() {
+        const sliders = prj.slides;
+        if (!sliders || sliders.length == 0 || sliders[0] === "") {
+            return (
+                <img
+                    src={prj.img}
+                    className="object-cover w-full rounded-t-lg aspect-[16/9]"
+                />
+                );
+        } else {
+            return (
+                <div className="relative object-cover w-full rounded-t-lg aspect-[16/9]">
+                    <img
+                        src={sliders[slider]}
+                        className="w-full rounded-t-lg aspect-[16/9]"
+                    />
+                    <div className="absolute bottom-0 left-0 bg-gray-100 dark:bg-gray-900">
+                    <button className="inline-btn no-underline px-2 py-1" type="button" onClick={(e) => setSlider(0)} value={0}>&#8592;</button>
+                    </div>
+                    <div className="absolute bottom-0 right-0 bg-gray-100 dark:bg-gray-900">
+                    <button className="inline-btn no-underline px-2 py-1" type="button" onClick={(e) => setSlider(1)} value={0}>&#8594;</button>
+                    </div>
+                </div>
+                );
+        }
+    }
     function renderExpande() {
         if (isCollapse) {
             if (scrollToElementRef.current) {
@@ -73,10 +100,7 @@ const Project = ({name,featurated}) => {
         <div className="w-full">
             <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full h-full rounded-lg drop-shadow-lg relative text-left">
                 {renderFeatured()}
-                <img
-                    src={prj.img}
-                    className="object-cover w-full rounded-t-lg aspect-[16/9]"
-                />
+                {renderImage()}
                 {/** 
                  * 
                  *  CONTENT
