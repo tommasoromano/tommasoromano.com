@@ -2,13 +2,14 @@
     "gmscm-2022":{
         "show":true,
         "name":"gmscm-2022",
-        "title":"Gamescom 2022",
+        "title":"GamesCom 2022",
         "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_gamescom-business-pitching-activity-6970629214131605505-0xqz",
         "date":"23-25 August 2022",
-        "description":"Gamescom",
+        "description":"I've represented Italy in the world biggest game business event: GamesCom in Cologne, Germany. Pitched the project War of Wheels, met business partners and shared ideas with developers all over the world. Italian pavilion organized by IIDEA, Italian Trade Agency and Ministry of Foreign Affairs",
         "tags":["Event"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":"/gc_2022.JPG"
     },  
     "top100-2022":{
         "show":true,
@@ -16,10 +17,11 @@
         "title":"Top 100 to follow in the videogame industry in Italy",
         "link":"https://startupitalia.eu/97380-20220717-163-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
         "date":"17 July 2022",
-        "description":"A big list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
+        "description":"I've been nominated in this list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
         "tags":["Award"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":""
     },   
     "frstplybl22":{
         "show":true,
@@ -27,10 +29,11 @@
         "title":"First Playable 2022",
         "link":"https://firstplayable.it",
         "date":"6-8 July 2022",
-        "description":"Firts Playable is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds like Nintendo Europe, Epic Games, Acer and so on",
+        "description":"I've brought the project War of Wheels to Firts Playable, which is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds",
         "tags":["Event"],
         "expande":["fp22-dlg","fp22-gmo","fp22-tfi","fp22-myu","fp22-ue5","fp22-ia"],
-        "expandeText":"See all attended talks"
+        "expandeText":"See all attended talks",
+        "image":"/fp_2022.JPG"
     },   
     "fp22-dlg":{
         "show":false,
@@ -41,7 +44,8 @@
         "description":"How is the game development scene in different European countries? What European associations are doing or plan to do to support the growth of their local ecosystems? What are the key learnings that can be shared from their experience in the field?",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":""
     },   
     "fp22-gmo":{
         "show":false,
@@ -52,7 +56,8 @@
         "description":"\"The Multiverse is a concept about which we know frighteningly little.\" Just like Doctor Strange getting to grips with the ins and outs of the Multiverse, we’re joined by global Metaverse specialists Nicola Rosa and Chris Gunby to break down the exciting possibilities of development for and within the Metaverse",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":""
     },   
     "fp22-tfi":{
         "show":false,
@@ -63,7 +68,8 @@
         "description":"Looking to find a partner or fund an upcoming videogame project? Hear from some of the thought leaders in the funding and publishing space on the best way to acquire support funding for your next gaming project and gain an understanding of what entering this type of relationship entails",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":""
     },   
     "fp22-myu":{
         "show":false,
@@ -74,7 +80,8 @@
         "description":"Inclusivity and diversity is the way forward. How can this be honed in the modern age of game creation, what avenues does it open up and how does this inclusivity bleed through into the game experiences and open up a more complete vision and collaborative work spaces?",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":""
     },   
     "fp22-ue5":{
         "show":false,
@@ -85,7 +92,8 @@
         "description":"Epic’s director of the developer community Sjoerd De Jong will walk through some of the latest developments around the recently released Unreal Engine 5, as well as other developer focused tools and tech that Epic is working on to help empower creation such as Metahuman and RealityScan. ",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":""
     },   
     "fp22-ia":{
         "show":false,
@@ -96,7 +104,8 @@
         "description":"Italians Abroad is a network initiative promoted by IIDEA within the aim to map and scope all the Italian’s professionals working in the gaming industry worldwide. In this appointment, we’ll be talking with a few Italians working in the industry overseas!",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },   
     "fp22-ri":{
         "show":false,
@@ -107,7 +116,8 @@
         "description":"Rami Ismail is a Dutch-Egyptian industry ambassador & independent games developer with over 20 titles across PC, console, web, and mobile. His development of tools like the industry-standard dopresskit.com, his prolific & popular public speaking, and highly-regarded consultancy and insights have helped shape industry opportunities for game communities & independent game developers of any kind, in any situation, and anywhere.",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },    
     "svpty2022-ntw":{
         "show":true,
@@ -115,10 +125,11 @@
         "title":"Realtime Networking for IndieDevs",
         "link":"/",
         "date":"14 May 2022 @ Svilupparty 2022, Bologna",
-        "description":"Gameplay Networking: Best practices and Design Patterns.",
+        "description":"I've spoken about Gameplay Networking: Best practices and Design Patterns at Svilupparty in Bologna, Italy",
         "tags":["Speaker"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-acc":{
         "show":true,
@@ -126,10 +137,11 @@
         "title":"Bologna Game Farm Accelerator",
         "link":"https://bolognagamefarm.com",
         "date":"December 2021 - July 2022",
-        "description":"Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by Regione Emilia Romagna, Comune di Bologna, in collaboration with IIDEA",
+        "description":"I'm one of the four winners of BGF. Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by Regione Emilia Romagna, Comune di Bologna, in collaboration with IIDEA",
         "tags":["Accelerator"],
         "expande":["bgf-gs","bgf-rw","bgf-fo","bgf-st","bgf-bcn","bgf-ps","bgf-ad","bgf-tt"],
-        "expandeText":"See all coaching lessons"
+        "expandeText":"See all coaching lessons",
+        "image":"/bgf_acc.JPG"
     },
     "bgf-gs":{
         "show":false,
@@ -140,7 +152,8 @@
         "description":"The \"vision\" of the project, in terms of the extent of understanding, requires a detailed forecast of what the game will be: its genre, the number of hours of play, the graphics quality, the number of supported players, the number of levels, the quality of the AI, and other aspects",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-rw":{
         "show":false,
@@ -151,7 +164,8 @@
         "description":"Refinement of the game scope and identity (including commercial) of games, development of game design, with an extremely practical approach.",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-fo":{
         "show":false,
@@ -162,7 +176,8 @@
         "description":"Production aspect linked to server management and the server engine chosen to manage the openworld",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-st":{
         "show":false,
@@ -173,7 +188,8 @@
         "description":"Studio management",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-bcn":{
         "show":false,
@@ -184,7 +200,8 @@
         "description":"Blockchain, NFT by University of Bologna",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-ps":{
         "show":false,
@@ -195,7 +212,8 @@
         "description":"Game designer: mechanical construction, parameters and relative balance (parametric apparatus and game economies)",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-ad":{
         "show":false,
@@ -206,7 +224,8 @@
         "description":"Art direction",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-tt":{
         "show":false,
@@ -217,7 +236,8 @@
         "description":"mentorship on various topics, from publishing to console porting, to the analysis of the structure of Unity projects",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "bgf-win":{
         "show":true,
@@ -228,7 +248,8 @@
         "description":"Winners with GladiatorWheels of the funding project Bologna Game Farm: accelerator dedicated to innovative startups for the development of videogames",
         "tags":["Award"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image":"/bgf_1.jpg"
     },
     "a-80lvl-2":{
         "show":true,
@@ -239,7 +260,8 @@
         "description":"Tommaso Romanò shared a look at an updated version of his procedural gun",
         "tags":["Article"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "top100-2021":{
         "show":true,
@@ -247,10 +269,11 @@
         "title":"Top 100 to follow in the videogame industry in Italy",
         "link":"https://startupitalia.eu/90664-20210826-142-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
         "date":"1 September 2021",
-        "description":"A big list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
+        "description":"I've been nominated in this list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity",
         "tags":["Award"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "a-80lvl-1":{
         "show":true,
@@ -261,7 +284,8 @@
         "description":"Italian Developer Tommaso Romano created another beautiful vegetation generator in Unity",
         "tags":["Article"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "t-social":{
         "show":true,
@@ -269,10 +293,11 @@
         "title":"Social Media for Game Developers",
         "link":"/",
         "date":"10 July 2021 @ Svilupparty 2021, Bologna",
-        "description":"Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure",
+        "description":"Been invited to speak about Social Medias for Game Developers: Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure",
         "tags":["Speaker"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "e-svpty21":{
         "show":true,
@@ -283,7 +308,8 @@
         "description":"Showcased an Untitled Nature Game at Bologna, Italy",
         "tags":["Exposition"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "a-80lvl-0":{
         "show":true,
@@ -294,7 +320,8 @@
         "description":"A Reddit user Tommaso Romanò has created a procedural ivy generator in Unity",
         "tags":["Article"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "i-mgwx":{
         "show":true,
@@ -305,7 +332,8 @@
         "description":"Emilio Cozzi, with Fortuna Imperatore and Johnny Lonack. Pros and cons of working as a Solo-Game-Developer",
         "tags":["Interview"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "e-mgwx":{
         "show":true,
@@ -316,7 +344,8 @@
         "description":"Showcased RELOW at Milan Games Week X on Twitch (online due to the pandemic)",
         "tags":["Exposition"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "t-iv-vi":{
         "show":false,
@@ -327,7 +356,8 @@
         "description":"How to produce videogames as a business",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "t-svpty20":{
         "show":true,
@@ -338,7 +368,8 @@
         "description":"Post-mortem talk of the multiplayer game RELOW",
         "tags":["Speaker"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "e-svpty20":{
         "show":true,
@@ -349,7 +380,8 @@
         "description":"Showcased RELOW at Bologna, Italy",
         "tags":["Exposition"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },   
     "frstplybl20":{
         "show":true,
@@ -360,7 +392,8 @@
         "description":"Firts Playable is Italy's leading international event about game business. Coaching, talking and pitching to international publishers and investment founds like Nintendo Europe, Epic Games, Acer and so on",
         "tags":["Event"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "vv-game":{
         "show":true,
@@ -371,7 +404,8 @@
         "description":"A brief lecture to Game Development: technologies, professionals and work positions",
         "tags":["Speaker"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "i-ludenz":{
         "show":true,
@@ -382,7 +416,8 @@
         "description":"the meeting with the young developer Tommaso Romanò, a nineteen year old game designer selected for his game Relow",
         "tags":["Interview"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "i-4gamehz":{
         "show":true,
@@ -393,7 +428,8 @@
         "description":"We had the enormous pleasure and stellar honor of being able to meet one of these lonely talents, one of those characters who can only make us proud of how the Italian indie scene is growing and enriching itself with such valid elements",
         "tags":["Interview"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "i-1manshow":{
         "show":true,
@@ -404,7 +440,8 @@
         "description":"",
         "tags":["Interview"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "e-mgw19":{
         "show":true,
@@ -415,7 +452,8 @@
         "description":"Showcased RELOW at Milan Games Week 2019",
         "tags":["Exposition"],
         "expande":["e-mgw19-uem","e-mgw19-mm"],
-        "expandeText":"See all attended talks"
+        "expandeText":"See all attended talks",
+        "image:":""
     },
     "e-mgw19-uem":{
         "show":false,
@@ -426,7 +464,8 @@
         "description":"Ray Tracing, Physics (CHAOS), and Project Spotlight",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "e-mgw19-mm":{
         "show":false,
@@ -437,7 +476,8 @@
         "description":"Communication and community management",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "i-twico":{
         "show":true,
@@ -448,7 +488,8 @@
         "description":"Interview with Tommaso, guest student at Twico for a school-work alternation project",
         "tags":["Interview"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "t-pp-copernico":{
         "show":true,
@@ -459,7 +500,8 @@
         "description":"An overview about game industry and publishing",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "ac-gj":{
         "show":true,
@@ -470,7 +512,8 @@
         "description":"Green Jobs is a program of entrepreneurial education in the environmental field, which integrates the methodology of the company JA with training meetings aimed at green entrepreneurship by InVento Innovation Lab",
         "tags":["Accelerator"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     },
     "js-conti":{
         "show":true,
@@ -481,6 +524,7 @@
         "description":"Python, HTML, CSS and JavaScript to create websites and videogames",
         "tags":["Talk"],
         "expande":[""],
-        "expandeText":""
+        "expandeText":"",
+        "image:":""
     }
 }

@@ -27,6 +27,20 @@ const Article = ({name}) => {
         }
     }
 
+    function renderImage() {
+        const img = artcl.image;
+        if (!img || img === "") {
+            return null;
+        } else {
+            return (<div className="w-20 h-20 md:w-28 md:h-28 m-4 float-left">
+                <img
+                    src={img}
+                    className="object-cover w-20 h-20 md:w-28 md:h-28 rounded-lg"
+                />
+            </div>);
+        }
+    }
+
     function renderExpande() {
         if (!hasExpande) {
             return null;
@@ -54,27 +68,35 @@ const Article = ({name}) => {
 
     return (
         <div className="w-full" ref={scrollToElementRef}>
-            
-        <section className={"w-full text-left px-4 md:px-8"+(hasExpande ? " border-4 border-sky-500/0 border-l-sky-500" : "")}>
-            
-            <h2 
-                className="text-2xl font-bold pace-x-3"
-            >
-                <span className="float-left p-1">
-                    <a href={artcl.link} target="_blank" rel="noreferrer noopener">
-                        {renderExternalLink()}
-                    </a>
-                </span>
-                <Pa href={artcl.link} text={artcl.title}/>
-            </h2>
-            <p className="space-x-3 my-4">
-                <span className="space-x-3 my-4">{listTags}</span>
-                <span className="italic">{artcl.date}</span>
-                <span>-</span>
-                <span>{artcl.description}</span>
-            </p>
-            {renderExpande()}
-        </section>
+            {/* <div className="gird grid-cols-1 md:grid-cols-2">
+                <div className="flex-none">
+                    <img
+                        src={"./bgf_1.jpg"}
+                        className="object-cover w-20 rounded-t-lg aspect-[16/9]"
+                    />
+                </div> */}
+                <div className={"w-full text-left px-4 md:px-8"+(hasExpande ? " border-4 border-sky-500/0 border-l-sky-500" : "")}>
+                    
+                    <h2 
+                        className="text-2xl font-bold pace-x-3"
+                    >
+                        {renderImage()}
+                        <span className="float-left p-1">
+                            <a href={artcl.link} target="_blank" rel="noreferrer noopener">
+                                {renderExternalLink()}
+                            </a>
+                        </span>
+                        <Pa href={artcl.link} text={artcl.title}/>
+                    </h2>
+                    <p className="space-x-3 my-4">
+                        <span className="space-x-3 my-4">{listTags}</span>
+                        <span className="italic">{artcl.date}</span>
+                        <span>-</span>
+                        <span>{artcl.description}</span>
+                    </p>
+                    {renderExpande()}
+                </div>
+            {/* </div> */}
 
         </div>
     );
