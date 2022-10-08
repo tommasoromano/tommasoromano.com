@@ -245,7 +245,7 @@
         "title":"Winners of Bologna Game Farm",
         "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_startups-videogames-activity-6878039527848472576-etCp",
         "date":"15 December 2021",
-        "description":"Winners with GladiatorWheels of the funding project Bologna Game Farm: accelerator dedicated to innovative startups for the development of videogames",
+        "description":"Winners with GladiatorWheels of the funding project Bologna Game Farm: entrepreneurial accelerator dedicated to innovative startups for the development of videogames",
         "tags":["Award"],
         "expande":[""],
         "expandeText":"",
@@ -297,7 +297,7 @@
         "tags":["Speaker"],
         "expande":[""],
         "expandeText":"",
-        "image:":""
+        "image":"/svp21.PNG"
     },
     "e-svpty21":{
         "show":true,
@@ -333,7 +333,7 @@
         "tags":["Interview"],
         "expande":[""],
         "expandeText":"",
-        "image:":""
+        "image":"/mgwx_rt.JPG"
     },
     "e-mgwx":{
         "show":true,
@@ -345,7 +345,7 @@
         "tags":["Exposition"],
         "expande":[""],
         "expandeText":"",
-        "image:":""
+        "image":"/mgwx.JPG"
     },
     "t-iv-vi":{
         "show":false,
@@ -369,7 +369,7 @@
         "tags":["Speaker"],
         "expande":[""],
         "expandeText":"",
-        "image:":""
+        "image":"/svp20.PNG"
     },
     "e-svpty20":{
         "show":true,
@@ -453,7 +453,7 @@
         "tags":["Exposition"],
         "expande":["e-mgw19-uem","e-mgw19-mm"],
         "expandeText":"See all attended talks",
-        "image:":""
+        "image":"/mgw19.JPG"
     },
     "e-mgw19-uem":{
         "show":false,
