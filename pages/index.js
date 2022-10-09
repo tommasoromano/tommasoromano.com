@@ -8,7 +8,7 @@ import Link from 'next/link'
 import contentWork from '../content/projects.json'
 import contentArticles from '../content/articles.json'
 import contentUniversity from '../content/university.json'
-import { selectedWorks } from "../components/FilterWork";
+import { selectedWorks, worksText } from "../components/FilterWork";
 import { selectedArticles, articlesText } from "../components/FilterArticles";
 
 export default function Home() {
@@ -65,11 +65,7 @@ export default function Home() {
         
         <h2 className="h2">Work</h2>
         <p className="h2p">
-          A list of featurated projects I&apos;ve worked on as an employer, collaborator, 
-          self-employed, student or personal. To show only
-          relevant projects, many are hidden. These projects cover many Computer Science fields
-          like Data Science &#38; Analysis, Web Development (both back-end and front-end),
-          Game Development and Software Development
+          A selected {worksText}
         </p>
 
         {/** 
@@ -125,6 +121,7 @@ export default function Home() {
           <Article name={"unimi5"}/>
           <Article name={"unimi3"}/>
           <Article name={"lssvv"}/>
+          <Article name={"fce"}/>
       </div>
 
       <div className="flex flex-col justify-center items-center space-y-10 mt-20">
