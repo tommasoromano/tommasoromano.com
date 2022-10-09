@@ -23,7 +23,7 @@ export default function Home() {
         
         <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0">
           <img
-            src="tommaso_romano.png"
+            src="/tommaso_romano.png"
             className="w-32 md:w-40 rounded-full ring-offset-4 ring-4 ring-sky-400 hover:animate-spin animate-none aspect-[1/1]"
           />
         </div>
