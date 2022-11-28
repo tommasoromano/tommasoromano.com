@@ -37,8 +37,8 @@ export default function Home() {
               <li>a {new Date().getFullYear()-2001}-year old software engineer</li>
               <li> currently working on / studying at:</li>
               <li>-</li>
-              <li>Frontend Engineer <Pa href={"https://famalabs.com"} text={"@ Fama Labs"}/></li>
-              <li>Software Engineer <Pa href={"https://dreambitsstudio.com"} text={"@ Dreambits Studio"}/></li>
+              <li>Software Engineer <Pa href={"https://famalabs.com"} text={"@ Fama Labs"}/></li>
+              <li>Game Engineer <Pa href={"https://dreambitsstudio.com"} text={"@ Dreambits Studio"}/></li>
               {/* <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li> */}
               {/* <li>MSc Computer Science student<Pa href={"https://unimi.it"} text={"@ UNIMI"}/></li> */}
               <li>MSc Computer Science student</li>
