@@ -133,6 +133,15 @@ export default function Home() {
             className="text-2xl font-bold text-center"
         >
         <section>Athletics</section>
+        <div
+        className="p-8"
+        >
+        <img
+          // src="/me/IMG_0440.PNG"
+          src="/me/IMG_4378.JPG"
+          className="w-3/4 md:w-3/4 rounded-t-lg aspect-[7/5] m-auto object-center"
+        />
+        </div>
         <br></br>
         <section>&#129352; 4x200m - Italian Championship Ancona 2022</section>
           <section>&#129353; 4x100m - Italian Championship Grosseto 2021</section>
