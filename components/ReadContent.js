@@ -13,7 +13,7 @@ const ReadContent = ({content}) => {
         while (i < splt.length) {
             let bfr = splt[i].split(")")[0]
             result.push(<Pa key={i} href={bfr.split("(")[1]} text={bfr.split("]")[0]}/>)
-            result.push(<p>{splt[i].split(")")[1]}</p>);
+            result.push(<p key={i}>{splt[i].split(")")[1]}</p>);
             res.push(<Pa key={i} href={bfr.split("(")[1]} text={bfr.split("]")[0]}/>)
             res.push(splt[i].split(")")[1]);
             i++;
