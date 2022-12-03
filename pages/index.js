@@ -139,7 +139,7 @@ export default function Home() {
         <img
           // src="/me/IMG_0440.PNG"
           src="/me/IMG_4378.JPG"
-          className="w-3/4 md:w-3/4 rounded-t-lg aspect-[7/5] m-auto object-center"
+          className="w-full md:w-3/4 rounded-t-lg aspect-[7/5] m-auto object-center"
         />
         </div>
         <br></br>
