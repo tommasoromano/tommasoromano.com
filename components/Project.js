@@ -57,7 +57,7 @@ const Project = ({name,featurated}) => {
         } else {
             return (
                 <section className="w-full h-auto flex flex-col flex-wrap space-y-8">
-                    {renderField()}
+                    {/* {renderField()} */}
                     {/* <div className="collapse mt-4 min-h-[16rem] max-h-[16rem] md:min-h-[16rem] md:max-h-[16rem] overflow-y-auto"> */}
                     <div className="">
                         <ReadContent content={prj.description}/>

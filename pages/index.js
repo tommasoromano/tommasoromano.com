@@ -23,7 +23,7 @@ export default function Home() {
         
         <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0">
           <img
-            src="/me/tommaso_romano.jpg"
+            src="/me/tommaso_romano_2023_v4_profile.png"
             className="w-32 md:w-40 rounded-full ring-offset-4 ring-4 ring-sky-400 hover:animate-spin animate-none aspect-[1/1]"
           />
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
               <li> currently working on / studying at:</li>
               <li>-</li>
               <li>Software Engineer <Pa href={"https://famalabs.com"} text={"@ Fama Labs"}/></li>
-              <li>Game Engineer <Pa href={"https://dreambitsstudio.com"} text={"@ Dreambits Studio"}/></li>
+              {/* <li>Game Engineer <Pa href={"https://dreambitsstudio.com"} text={"@ Dreambits Studio"}/></li> */}
               {/* <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li> */}
               {/* <li>MSc Computer Science student<Pa href={"https://unimi.it"} text={"@ UNIMI"}/></li> */}
               <li>MSc Computer Science student</li>

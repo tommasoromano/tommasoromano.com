@@ -1,4 +1,16 @@
 {
+    "gcparis-2022":{
+        "show":true,
+        "name":"gcparis-2022",
+        "title":"GameConnection Paris 2022",
+        "link":"https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_game-connection-europe-was-great-it-was-activity-6995741933381824512-yw6X?utm_source=share&utm_medium=member_desktop",
+        "date":"3-4 November 2022",
+        "description":"I've took part at the Game Connection Paris: the deal making event for the video game industry. Game Connection is the international event where 1,500+ developers, publishers, distributors and service providers come to find new partners and/or find new clients",
+        "tags":["Event"],
+        "expande":[""],
+        "expandeText":"",
+        "image":"/gcparis_2022.jpeg"
+    },
     "gmscm-2022":{
         "show":true,
         "name":"gmscm-2022",
