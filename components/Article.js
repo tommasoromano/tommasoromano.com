@@ -67,7 +67,7 @@ const Article = ({name}) => {
     }
 
     return (
-        <div className="w-full" ref={scrollToElementRef}>
+        <div className="w-full" id={artcl.name} ref={scrollToElementRef}>
             {/* <div className="gird grid-cols-1 md:grid-cols-2">
                 <div className="flex-none">
                     <img

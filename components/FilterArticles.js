@@ -10,7 +10,7 @@ function FilterArticles( ) {
 
     const content_filtered = Object.entries(content).filter((item) => item[1].show === true);
     const [items, setItems] = useState([]);
-    const [filter, setFilter] = useState("Selected");
+    const [filter, setFilter] = useState("All");
 
     useEffect(() => {
         setItems(content_filtered)

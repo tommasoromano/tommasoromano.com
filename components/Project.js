@@ -97,8 +97,8 @@ const Project = ({name,featurated}) => {
     };
 
     return (
-        <div className="w-full">
-            <section id={prj.seemore.replace("/","")} className="bg-gray-100 dark:bg-gray-900 w-full h-full rounded-lg drop-shadow-lg relative text-left">
+        <div className="w-full" >
+            <section id={prj.name} className="bg-gray-100 dark:bg-gray-900 w-full h-full rounded-lg drop-shadow-lg relative text-left">
                 {renderFeatured()}
                 {renderImage()}
                 {/** 
