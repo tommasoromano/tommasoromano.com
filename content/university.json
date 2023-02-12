@@ -19,7 +19,7 @@
         "date":"October 2019 - October 2022",
         "description":"",
         "tags":["University"],
-        "expande":["scient-vis","prog-dich","fisica","sicpriv","reti","swang","cg","stat","sisop","db","prog2","algo","logica","discreto","archi2","lfa","continuo","archi","prog"],
+        "expande":["scient-vis","prog-dich","ai","fisica","sicpriv","reti","swang","cg","stat","sisop","db","prog2","algo","logica","discreto","archi2","lfa","continuo","archi","prog"],
         "expandeText":"See all attended courses",
         "image:":""
     },
@@ -42,6 +42,18 @@
         "link":"/",
         "date":"Fiorentini Camillo, Momigliano Alberto Davide Adolfo",
         "description":"F# and Twelf",
+        "tags":["Course"],
+        "expande":[""],
+        "expandeText":"",
+        "image:":""
+    },
+    "ai":{
+        "show":false,
+        "name":"ai",
+        "title":"Artificial Intelligence",
+        "link":"/",
+        "date":"Nicola Basilico",
+        "description":"",
         "tags":["Course"],
         "expande":[""],
         "expandeText":"",
