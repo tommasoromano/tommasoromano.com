@@ -10,20 +10,24 @@ import contentArticles from '../content/articles.json'
 import contentUniversity from '../content/university.json'
 import { selectedWorks, worksText } from "../components/FilterWork";
 import { selectedArticles, articlesText } from "../components/FilterArticles";
+import { useState, useEffect } from "react";
 
 export default function Home() {
 
   const articles_filtered = Object.entries(contentArticles).filter((item) => item[1].show === true);
   const works_filtered = Object.entries(contentWork).filter((item) => item[1].show === true);
 
+  const [rotating, setRotatin] = useState(false);
+
   return (
     <Layout>
 
       <section className="md:flex md:items-center md:space-x-10 min-h-screen">
         
-        <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0">
+        <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0"
+        >
           <img
-            src="/me/tommaso_romano_2023_v4_profile.png"
+            src={!rotating ? "/me/tommaso_romano_base_rounded.png" : "/me/tommaso_romano_rotating.jpg"}
             className="w-32 md:w-40 rounded-full ring-offset-4 ring-4 ring-sky-400 hover:animate-spin animate-none aspect-[1/1]"
           />
         </div>
