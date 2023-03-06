@@ -14,7 +14,7 @@
         "time":"August 2022 - Present",
         "at":"@ Fama Labs",
         "atlink":"https://famalabs.com",
-        "tech":"Next.js, React, TypeScript, and others ( Storybook, Jest, Redux, Nx, MongoDB, ESLint, Rollup, Swagger, MaterialUI )",
+        "tech":"Next.js, React, TypeScript, and others ( Storybook, Jest, Swagger, Redux Toolkit, MongoDB, Redis, RabbitMQ, Nx, MaterialUI, ESLint, Rollup )",
         "seemore":"/famalabs",
         "slides":[]
     },
