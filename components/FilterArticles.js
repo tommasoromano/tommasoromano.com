@@ -3,7 +3,7 @@ import content from "../content/articles.json"
 import { useState, useEffect } from "react";
 import Link from 'next/link'
 
-export const selectedArticles = ["gcparis-2022","gmscm-2022","top100-2022","frstplybl22","svpty2022-ntw","bgf-acc","a-80lvl-2"]
+export const selectedArticles = ["usc-2023","gcparis-2022","gmscm-2022","top100-2022","frstplybl22","svpty2022-ntw","bgf-acc"]
 export const articlesText = "list of news, articles, interviews, awards, expositions, events, talks, courses and achievements"
 
 function FilterArticles( ) {

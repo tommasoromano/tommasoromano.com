@@ -1,4 +1,16 @@
 {
+    "usc-2023":{
+        "show":true,
+        "name":"usc-2023",
+        "title":"USC 2023 Finalist",
+        "link":"https://www.linkedin.com/posts/tommaso-romano-developer_startup-innovation-energy-activity-7050766312649682945-Dj1B?utm_source=share&utm_medium=member_desktop",
+        "date":"24-31 March 2023",
+        "description":"My team and I have been selected as finalist in the University Startup Challenge 2023: focused on energy and climate and organized by Politecnico di Milano and Bocconi, we had to create a startup, prototype and pitch deck in 7 days. Attended several workshops and talks, been selected as finalist and pitched in front of a jury of investors and experts, as well as a crowded auditorium of students and entrepreneurs",
+        "tags":["Startup Hackathon"],
+        "expande":[""],
+        "expandeText":"",
+        "image":"/usc2023.jpeg"
+    },
     "gcparis-2022":{
         "show":true,
         "name":"gcparis-2022",
