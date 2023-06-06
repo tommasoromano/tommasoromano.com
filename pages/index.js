@@ -11,6 +11,7 @@ import contentUniversity from '../content/university.json'
 import { selectedWorks, worksText } from "../components/FilterWork";
 import { selectedArticles, articlesText } from "../components/FilterArticles";
 import { useState, useEffect } from "react";
+import Balancer from 'react-wrap-balancer'
 
 export default function Home() {
 
@@ -27,7 +28,7 @@ export default function Home() {
         <div className="flex justify-center md:flex-none mt-20 mb-10 md:m-0"
         >
           <img
-            src={!rotating ? "/me/tommaso_romano_base_rounded.png" : "/me/tommaso_romano_rotating.jpg"}
+            src={!rotating ? "me/me_2023_05_final_square.jpg" : "/me/tommaso_romano_rotating.jpg"}
             className="w-32 md:w-40 rounded-full ring-offset-4 ring-4 ring-sky-400 hover:animate-spin animate-none aspect-[1/1]"
           />
         </div>
@@ -36,17 +37,20 @@ export default function Home() {
 
           {/* <h2 className="h2">Hi, I&apos;m Tommaso</h2> */}
           <p className="h2p">
+          {/* <Balancer ratio={0.5}>
+            Hi, I&apos;m <span className="inline-btn">Tommaso Romanò</span>, 
+            a {new Date().getFullYear()-2001}-year old 
+            MSc Computer Science student <Pa href={"https://unimi.it"} text={"@ University of Milan"}/>
+            (incoming) Software Engineer <Pa href={"https://aws.amazon.com/"} text={"@ AWS"}/>
+          </Balancer> */}
             <ul className="list-none">
-              <li>Hi, I&apos;m <span className="inline-btn">Tommaso Romano</span>,</li>
-              <li>a {new Date().getFullYear()-2001}-year old software engineer</li>
-              <li> currently working on / studying at:</li>
-              <li>{'\n'}</li>
-              <li>Software Engineer <Pa href={"https://famalabs.com"} text={"@ Fama Labs"}/></li>
+              <li>Hi, I&apos;m <span className="inline-btn">Tommaso Romanò</span>,</li>
+              <li>a {new Date().getFullYear()-2001}-year old MSc Computer Science</li>
+              <li>student <Pa href={"https://unimi.it"} text={"@ University of Milan"}/></li>
+              <li>(incoming) Software Engineer <Pa href={"https://aws.amazon.com/"} text={"@ AWS"}/></li>
               {/* <li>Game Engineer <Pa href={"https://dreambitsstudio.com"} text={"@ Dreambits Studio"}/></li> */}
               {/* <li>Big Data Developer <Pa href={"https://smart-bear.eu"} text={"@SESAR"}/></li> */}
               {/* <li>MSc Computer Science student<Pa href={"https://unimi.it"} text={"@ UNIMI"}/></li> */}
-              <li>MSc Computer Science student</li>
-              <li><Pa href={"https://unimi.it"} text={"@ University of Milan"}/></li>
             </ul>
           </p>
           
